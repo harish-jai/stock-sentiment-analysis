@@ -2,7 +2,7 @@ import pandas as pd
 import csv
 from sklearn import linear_model
 from sklearn.model_selection import train_test_split
-from Preprocessing import *
+from preprocessing import *
 import flair
 from flair.data import Sentence
 import yfinance as yf
@@ -76,13 +76,13 @@ def main():
     sentimentFile = "stock_sentiment.csv"
     
     '''Sentiment Analysis'''
-    # createTweetList(companytweetsFile, tslaTweets, ticker)
+    # createTweetList(companytweetsFile, tweetsListFile, ticker)
     # sentiment_analysis(tweetsListFile, sentimentFile)
 
     """Read stock_sentiment.csv and average the score for a given day"""
     df = pd.read_csv(sentimentFile)
     
-    df =  df[["post_date", "score"]]
+    df = df[["post_date", "score"]]
     df = df.groupby([df['post_date']]).mean().reset_index()
     print(df.head())
 
