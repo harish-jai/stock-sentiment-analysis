@@ -1,0 +1,705 @@
+Date,PostID,Title,Content,Score,Comments,URL
+1740269859.0,1ivx6rs,I've built an app to log daily P/L,"I started trading before Covid, took a break, and recently got back into day trading. One thing that always frustrated me was how most brokerage accounts don’t offer a way to see P/L in a calendar format for each trading session. So, I asked AI to help me build a simple web app called Flippl to:
+
+* Log my daily profit/loss
+* View trading sessions in a calendar or a chart
+* Export all trade data to CSV for backup
+* Generate a public link to share my all-time summary with others
+
+Nothing fancy—just an easy way to keep track of my trades without digging through spreadsheets.
+
+Check it out here: [https://flippl.app/](https://flippl.app/)
+
+Please feel free to use it, and I'd love to hear any feedback or suggestions!
+
+https://preview.redd.it/5vdtegvvzrke1.png?width=2992&format=png&auto=webp&s=f32f71de6acdddf96c88243b9ea74d999451acee
+
+https://preview.redd.it/vqwd12etxrke1.png?width=2980&format=png&auto=webp&s=ef179f71434d5209b310e0d7ee6a4f11fa849a8e
+
+",1,0,https://www.reddit.com/r/Daytrading/comments/1ivx6rs/ive_built_an_app_to_log_daily_pl/
+1740269842.0,1ivx6k0,Very Red Friday = Green Monday | SPY Price Change Visualization,"https://preview.redd.it/869bjvs07ske1.png?width=3735&format=png&auto=webp&s=4d53cdee71232e7c7f8c034990553cea67aed595
+
+I was playing around with some data on SPY from 2022 to present and figured out how to make a heat map in a calendar format based on the percent change from open to close. I didn't really see any major patterns in the data over that time period outside of what's already known - like, 2022 was volatile. 
+
+However, I noticed that Monday's were generally more calm than all other days. And, although, some of the biggest red days in 2022 were Mondays, it still ended up being the 2nd best performing day of that year.
+
+Fridays, on the other hand, are psychotic. Maybe its because people are trying to unwind all of their bad trades from the beginning of the week. I can't say, but the only thing this visualization does show about Friday's is that they can end up anywhere. It's like Monday's are the beginning of a wagging tail, and Friday's are the tip.
+
+The one thing I did see that had a very strong probability was that very red Friday's (downward moves of 1.5% or more) seem to be followed by green Mondays. This does not take gaps into account. It's just based on ""closing price - opening price"". The data doesn't say ""buy at the end of the day on Friday"", but it does suggest that buying at Monday open after a -1.5% move, or greater, has, over the past few years had a great chance of being followed by a green Monday. 
+
+If you see anything else, please share. 
+
+Oh, and this past Friday had a move of -1.71%.",1,0,https://www.reddit.com/r/Daytrading/comments/1ivx6k0/very_red_friday_green_monday_spy_price_change/
+1740269808.0,1ivx65u,COIN target?,"Will COIN come back down to close the gap? 
+What price target are you waiting for to enter??",1,0,https://i.redd.it/yx81a0hm7ske1.jpeg
+1740269703.0,1ivx4vp,RDDT target?,Will RDDT hold support or will it come down and close the gap???,1,1,https://i.redd.it/doahjz4b7ske1.jpeg
+1740265400.0,1ivvndd,SL gets triggered by wick… candle continues to close above or below my stop loss. Is there a way to get around this?,"While looking through my trading log, I had a significant number of trades that failed due to this happening. I use TradingView to trade. Is there a way to make it so my SL only triggers when a candle closes, not if a wick hits it?",1,30,https://www.reddit.com/r/Daytrading/comments/1ivvndd/sl_gets_triggered_by_wick_candle_continues_to/
+1740264223.0,1ivv87u,Is it frowned upon to not monitor my trades?,"So in funded 100k, but I’m also 18 years old. So I have a lot going on in life right now, two jobs and school on top of trading. Now I find myself setting trades with a SL and TP and forgetting about them. Is this frowned upon or general practice?",1,0,https://www.reddit.com/r/Daytrading/comments/1ivv87u/is_it_frowned_upon_to_not_monitor_my_trades/
+1740262152.0,1ivuhbc,Is starting with prop firm a good idea?,I would consider myself a newbie but I have invested in stocks before and have done pretty decent swing trading considering I have limited funds. I have decided that I want to become a serious day trader and only have $7k to lose/invest. I have a Schwab and Robinhood account and am scared of accidentally being flagged as a pattern trader as I have sold some stocks intraday but only at around $500/trade. Which brings me to another question. Will Schwab warn me about pattern trading and give me a heads up if I did one? But my main question is if I’m willing to fork over $50/mth for a prop firm like Top Step is that a good way to learn and get started? Thanks. ,1,0,https://www.reddit.com/r/Daytrading/comments/1ivuhbc/is_starting_with_prop_firm_a_good_idea/
+1740261972.0,1ivuev2,Alternatives to Trade by Matt for NQ,"Long time lurker. Thanks for all the good folks here. After looking all over the net and Reddit for live NQ traders, I found Trades by Matt. The others suggested here were too educational rather than live and focused on NQ.
+
+I know most here think he is a fraud. I like him to point out key levels and blocks. I follow my own setup and not his. A shady part I noticed so far  is the one or two minute lag.
+
+Is there a better live trader for NQ?",1,3,https://www.reddit.com/r/Daytrading/comments/1ivuev2/alternatives_to_trade_by_matt_for_nq/
+1740261787.0,1ivucev,Over the last month I’ve lose 1500$,"Im thinking about taking a break as I’ve lost my last 3 checks trading. Before that I was actually profitable but this whole month it’s just been down. Never quitting tho I’ll be back even stronger💪🏾
+",50,87,https://i.redd.it/fn0woorrjrke1.jpeg
+1740259247.0,1ivtevn,I need help,"Started trading in october 2023 and since July 2024 I have been profitable, but I do not have enough capital and I am relying only on prop firm challenges which I tried to pass few but failed due to hidden rules and their bad market conditions.
+What can I do to aquire a decent amounth of money to start trading with other than propfirms? (I cannot do it with a job because I live in a country where the median monthly income is $300 a month).",1,0,https://www.reddit.com/r/Daytrading/comments/1ivtevn/i_need_help/
+1740258006.0,1ivsxvr,Does anyone use SMC and are you successful ?,"So just a quick one, I see a lot of people here trading contracts and such and I have no clue where to start with all that, but I have been learning about trading currencies using the SMC (smart money concept) does anyone else use this method and how is it going for you, any advice from a profitable trader using this would be amazing, thanks ",1,0,https://www.reddit.com/r/Daytrading/comments/1ivsxvr/does_anyone_use_smc_and_are_you_successful/
+1740257992.0,1ivsxo8,What would you do?,"Need a little advice. On Thursday I took a trade on BRTX. Meant to buy 1,000, accidentally bought 11,000. As soon as I realized what I had done I should have sold (that’s way too big of a position for my account), but I didn’t sell, thinking I could handle the trade (As evidenced, I could not). 
+
+Price tanked y’all. TANKED. In a matter of seconds I was down $1200. In a snap decision, considering the stock overall, I decided to hold the position as a swing trade and let it rebound, even if it took a few days. It dropped another $.16/share on Friday. I’m now down $4,900. 
+
+I have cash in my account to continue to daytrade, but obviously this has tied up a lot of capital. And as much as it makes me nervous to have this much in one stock, I don’t want to take a $5k loss if I don’t absolutely have to. 
+
+I broke my day trading rules and I know I made a mistake. I know, I know. 🙈(LESSON DEFINITELY LEARNED)
+
+This is where I need help: 
+Do I cut my losses and sell all 11,000 shares on Monday? 
+
+Sell some of it to reduce my position size (at a loss) and let it rebound, even if that takes weeks/months? 
+
+What would you do if you were in this position? 
+
+What advice (besides don’t ever do this again) can you give me? 
+
+
+",4,32,https://www.reddit.com/r/Daytrading/comments/1ivsxo8/what_would_you_do/
+1740252338.0,1ivqsjr,TradingView Screener RVAT,"Hey guys, 
+
+I'm starting to use the tradingview screener for my stock selection and I have a couple of doubts, specifically on the time interval.
+
+If I use the time interval set to 1D, then the columns like ATR (14) and VOL (10) should be based on the last respective days.
+
+However, If I add the Relative Volume at Time column, it should only work for 5mins bar according to:
+
+[https://www.tradingview.com/support/solutions/43000635874-how-do-we-calculate-relative-volume-and-relative-volume-at-time/](https://www.tradingview.com/support/solutions/43000635874-how-do-we-calculate-relative-volume-and-relative-volume-at-time/)
+
+So in the same screener (1D Time Interval) I can wait for the 5min closure on opening, then check the RVAT to see which ones are doubling or triplicating (example) comparing to the same period in the last 10 days, right?",1,0,https://www.reddit.com/r/Daytrading/comments/1ivqsjr/tradingview_screener_rvat/
+1740252195.0,1ivqqjj,Does correlation hurt my win rate ?,"I know that each trade is independent, but what about mixing correlated/ non correlated trades , like taking 5 correlated trades today , and next day taking non correlated trades , is that a problem ? Each trade is independent is that still the case when correlated?
+Thanks ",1,0,https://www.reddit.com/r/Daytrading/comments/1ivqqjj/does_correlation_hurt_my_win_rate/
+1740250281.0,1ivpzf2,When to believe in your system?,"So I’ve a discretionary day trading system I’ve backtested for about 6 months and live traded for 10 months. (Been trading about 3 years in total im specially talking about my current main set up here).
+
+The last 6 months have been profitable and each months profitability is trending up as I learn more price action and improve on my skills and gradually eliminating errors.
+
+I’m just wondering are there any milestones or moments people have had when they finally fully trusted their system and realised they were consistently profitable?
+
+I day trade the ES 5min chart. My system gets about 4-6 signals a day which I usually take 2-3. Win rate the last 90 days is 70%, profit factor around 2. Risk reward usually 1:1.",9,14,https://www.reddit.com/r/Daytrading/comments/1ivpzf2/when_to_believe_in_your_system/
+1740246689.0,1ivok4c,My Daytrading Rules,"What do you think?
+
+Don’t be scared of losing small. 
+Be scared of losing big!
+
+Trade either works or it doesn’t!!! Right away!
+
+It is OK to admit you are wrong!
+
+Do not trade on the way down!
+
+Never average down!",48,18,https://www.reddit.com/r/Daytrading/comments/1ivok4c/my_daytrading_rules/
+1740245841.0,1ivo7vn,Nq and mag 7 options,"I am new to trading, i paper trade nq and mag 7 stocks using mosly 0DTE options on webull, is this the best way to trade or is there another way ? ",1,3,https://www.reddit.com/r/Daytrading/comments/1ivo7vn/nq_and_mag_7_options/
+1740245670.0,1ivo5dh,19 year old 200k in profit AMA. Verified on kinfo. SpatialTrader,"Hello traders, bored on a Saturday, answering any questions you guys might have, I’m a profitable 19 year old trader with 200k in profits. I’m verified on kinfo, the app says they sent a flair to modmail so should be showing and YouTube spatialtrader for proof.
+
+Edit: I have answered several questions that are general questions so look to see if your question is answered before answering, and like zero upvotes:(",0,68,https://www.reddit.com/r/Daytrading/comments/1ivo5dh/19_year_old_200k_in_profit_ama_verified_on_kinfo/
+1740244986.0,1ivnvgz,$55 away from being funded,"As the title reads, I’m most likely one trade away from being funded the downside to this is that my risk has decreased substantially and i mean substantially. At one point I risked only 1 micro to make $30. I was doing $800 trades risking 1 mini because i wasn’t as close to being funded. On Tuesday I took two trades that both could’ve got me funded. I exited early on both right before they shot up to TP. I only got out because of fear of losing. I’m so close I need to get over this. I’m thinking of risking more to get one tick in profit and exit but that’s just not how i work. I’m thinking of following a signal to get me funded but if i follow a signal that loses my money I’m actually gonna crash out. What should I do. I risk 6 micros because i’m so close.",1,1,https://i.redd.it/b26467dt5qke1.jpeg
+1740243489.0,1ivn9cx,Leverage question,"Can you gents explain to me what I’m doing wrong here pls. So I start with 6177$ and end with 6153$ when my closing PNL is in the green with 29$. This was a short btw. 
+",0,0,https://www.reddit.com/gallery/1ivn9cx
+1740243212.0,1ivn5fv,Silver bullet proof,Wondering if anyone has truly gotten profitable with the silver bullet ict strategy. And if so do you have proof and any insight or a way to keep it clean and neat everyday.,0,3,https://www.reddit.com/r/Daytrading/comments/1ivn5fv/silver_bullet_proof/
+1740235084.0,1ivk43d,When can you consider full time Day Trading?,What milestones do we cross before we can quit our day job and switch to day trading full time?,1,0,https://www.reddit.com/r/Daytrading/comments/1ivk43d/when_can_you_consider_full_time_day_trading/
+1740234933.0,1ivk25m,"For Expiring Covered Calls, What do we do? Roll or let it expire and repick?","Am I doing a covered call strategy right? What do you do if it’s OTM at the end of the day? Roll the options or let it expire and repick and enter at another strike price? 
+
+If it’s ITM what will you do?",1,0,https://www.reddit.com/gallery/1ivk25m
+1740234702.0,1ivjzc6,Taking Losses,"The best traders I have met take losses like nothing. The position moves against them and without hesitation, they cut the trade. On the flip side, I personally find myself holding onto positions longer than I should because I am TERRIFIED that the moment I sell, the position will move in my favor and as we all know, that is next level pain. 
+
+  
+Any tips on how to move past this psych barrier? I obviously acknowledge the mistake, but in the moment, I keep repeating the same mistake over and over and it is slowly killing my account.",20,39,https://www.reddit.com/r/Daytrading/comments/1ivjzc6/taking_losses/
+1740233777.0,1ivjo9s,apex trading payout,asking if the payout for apextrading is always going to be capped at 2k for 50k account or is it only for the first 3 payout? pls help me out here ,1,0,https://www.reddit.com/r/Daytrading/comments/1ivjo9s/apex_trading_payout/
+1740233684.0,1ivjn45,What do trading furus and scammers do to keep their vicitms engaged for an extended period of time?,"I always wondered not that people get scammed but that many are being fleeced for multiple days, weeks or even months. It is one thing to get sold a large bridge once, but getting sold the bridge brick by brick over an extended period of time is an entirely different story for me.
+
+If you ever were a victim of a chat room or an individual, or if you have ever brought a useless piece of advice or software, what were you told to keep you at it, while trying to fleece you for everything you have? 
+
+When did you finally notice that you were actually being taken advantage of instead of getting the promised advantage over the market? 
+
+What did they try to lure you back in once you had left, and were they successful at least once?
+
+Were there any early signs that you are in for being robbed instead of doing the robbing early on? Why did you ignore these signs?
+
+\---
+
+Many thanks, and I am not just asking for a friend; I just have a genuine interest in the answer, as I would like to know if they all do the same or not and if they use more honey or more force when doing so.",0,4,https://www.reddit.com/r/Daytrading/comments/1ivjn45/what_do_trading_furus_and_scammers_do_to_keep/
+1740230837.0,1ivipcs,How long did it take you to become profitable?,Curious about the journey of other traders here on reddit. Tell me about it!,16,61,https://www.reddit.com/r/Daytrading/comments/1ivipcs/how_long_did_it_take_you_to_become_profitable/
+1740229729.0,1ivid3g,Websites and Information on Stock Market-Influencing Events?,"Yesterday significantly dragged down the index, seemingly due to a consumer expectations study that I believe was not particularly important. At the same time, we should not ignore the fact that these kinds of preliminary expectations and market surveys can influence investors. Because of this, I’d like to find websites that compile the daily forecasts or expected news items that might have such a market-moving effect. 
+
+Do such websites even exist? Did anyone or anything indicate that the university survey could have such an impact on stock market developments?",1,2,https://www.reddit.com/r/Daytrading/comments/1ivid3g/websites_and_information_on_stock/
+1740218189.0,1ivfflt,"I read almost every post here. I want to share. For a moment I felt like the best trader in the world. I was profitable for about 4 months and 40 trades. About %15 a week, daytrading, sometimes holding a position for 2 or 3 days at most.","Seeking ADVICE.   
+I started trading about 5 years ago. I learned all the tricks and tips to being profitable very early on. No I didn't follow them. Following my methods I was profitable, but it is boring as shit and doesn't leave room for imagination. Through the years I've stumbled onto strategies that are profitable. I have 4 reliable and tested, and working on a 5th. Don't get me wrong, these are just simple set ups with little to no down side. The one that everyone knows, but it is not day trading, is just wheeling. You can make good money on that. But that's boring and tried and true for long term investors in stable stocks. The other ones seem complicated, but are simple, yet qualify as day trading, are very profitable yet never talked about. One of these gets me about 10% a month, and only requires me to make adjustments once or twice a week. A tad bit boring, but the money is nice. Then the one that I'd been testing last year, and I was scared to keep trying has been bold and it worked like a charm. 
+
+I came up with this one on my own. I'm quite proud of it. I started with the goal of making 5% per trade. Ended up with wildly different results. About 1/4 of my trades ended up with 5-10% losses, which was definitely at times I shouldn't have been placing trades(like they all say). Other trades were wildly higher, since I dont have an upper limit of when I close, just when I feel like it is enough. I ended up making about 15% every week on average. I almost doubled my account every month for 4 months straight, while I also kept withdrawing some money and blowing it on nice things because that's what makes the sacrifice worth it. Recommend. 
+
+Suddenly money was no object, and just like that money lost all value. The chaos of the 2 weeks of the pause in earnings and the chaos of January threw me off. I had days of randomly gambling on SPX (because I was trying to avoidwash sales, not trading on any of the regular names that I knew well, which i had traded in December), and after a few trades of making +10k, I just stopped thinking about my strategy. 
+
+I no longer saw money as real, I didnt even care if I lost anymore, because I knew that I knew how to make it all back if I felt like it. Insane. I know you must be thinking that I was probably lucky and manic, which is all i could think too. But the funny thing is that I stopped putting money into the market last year because I became profitable. I don't need any of the money anymore. I realized that I literally was trying to get profitable so that I dont have to put any ""real"" money into the market anymore and not have to try to explain to my wife why I needed more. Now, I'm free. My wife has left me. Lol, jk. Now, i get to extract money and buy stuff for her. 
+
+So where is the problem? Well, since I can't feel anything from the money anymore, I'm just throwing money into 0dte SPX options to see if I can catch the trend and day trade those options. Honestly, it's the fact that 1 word from 1 person can throw the market into turmoil any day, with the market being so fragile to headlines, I don't find my own strategies that profitable on a day to day basis. For instance, I can recover all my losses in a single trade, and I have multiple times this year-to-date alone. Today I just didnt even care, so I slept in and didnt trade; missed opportunity. 
+
+So far, I have basically lost 50% of my profits from the point that i became profitable. But I guess I just look at it as just house money now. Also, this is the second time in the past 2 months that I have lost and made back and lost that same amount. So again... no lesson learned, so I'm still considering it daytrading but IDK.   
+  
+The thing is, how much money do I need to be happy? Not too much I think.   
+Another thing that I realized was that I was worried about money, and I needed money to solve the problems of money. Which it did. But once I had all the money I needed, and money became meaningless, all the other real life problems became glaringly clear. I realized that the Money didn't give me extra time with my kids, and it didnt give me extra time with my wife, and it didnt even give me extra time because I was still trying to earn money. Honestly maybe im just depressed about the state of the world. I'm no fan of stress. 
+
+So anyway...I guess i'm writing this because I have no one else (other than my wife who listens but doesnt understand what i'm doing or going through) to talk about this stuff. 
+
+Sorry, I went off on a tangent. But I guess it is relevant to the advice that i'm seeking. I don't know what to do. I feel like I stumbled onto something that seems too good to be true, but has proven pretty real so far. I'm afraid of finding out that I was actually just a moron getting lucky every month, and that I should quit while I'm ahead. I tried to test it, using the 40 trades thing, and I feel like that gives it legitimacy. I don't know how much I can scale it, but I'm a small fish still. Should I just continue on with the trading even though I find it just so boring now. What really excited me was discovering and testing new methods and strategies. And that's why i'm always working on something new even though i have a few easy ones that already pretty much guarantee money. I have one that literally guarantees that i'll make money, but just takes a longer time frame. It did 5x over the course of about 5 months, and the win was guaranteed, but the amount wasnt. Anyway, I'm not sure if im allowed to make any statements without providing receipts, but I just need someone to understand what I'm going through, and maybe someone who has had a similar problem. I definitely have imposter syndrome. I also have a problem with doing the same mundane repetitive tasks, especially without co workers. I don't think people really realize how lonely it is without co workers. I wish I could have a nice normal desk job, but I have no skills. I could probably fill out excel sheets by hand, but AI is already doing that job now. I was thinking of going to work at a local coffee shop so I can have someone to talk to. 
+
+P.S. Forgive me, I hope you will understand that I cannot share my methods. I am here for YOUR advice on daytrading lifestyle. The only advice I can give is that you should follow the advice that you see repeated on this sub over and over, the same 5 rules or something; i promise that if you are to ever become profitable, it will not be without following those rules. ",0,16,https://www.reddit.com/r/Daytrading/comments/1ivfflt/i_read_almost_every_post_here_i_want_to_share_for/
+1740215699.0,1iveuzw,Open Source Algo Trading Framework With Free Heatmap & Footprint Charts,,121,24,https://v.redd.it/rbf5y9m3onke1
+1740211402.0,1ivdved,Using Level-II data for trading,"For all using Level-II data for trading US stocks and options, what are the typical market data subscriptions that you use?",5,9,https://www.reddit.com/r/Daytrading/comments/1ivdved/using_levelii_data_for_trading/
+1740210863.0,1ivdqq7,"Feeling quite discouraged, anyone else in the same boat?","    I’m working on developing a strategy right now with API data from Schwab, but I can’t help but think that it won’t be possible to be profitable from all of this. As an individual / retail trader it seems too difficult to find edge in the market. I don’t have access to the PHD quants and HFT algorithms that Hedges have access to. 
+    Everyone that says the are profitable here is either on a short luck streak, lying, or about to martin gale themselves to death. 
+   I’d like to be able to have a true reliable reference from somebody that has proof of their success in a modern market. I’m not asking for a strategy here 
+  Comments:”they are hard to find because they would never share their strategy”
+ — but all I want is some decent proof from Atleast a single individual that has developed and is still utilizing statistical edges to beat the market.
+
+(Edit: I’d also like to note that I’m against discretionary trading as I believe if you have a robust system there is nothing stopping you from automating it * discretion should only be used in sentiment analysis)",0,23,https://www.reddit.com/r/Daytrading/comments/1ivdqq7/feeling_quite_discouraged_anyone_else_in_the_same/
+1740199199.0,1ivaq3t,Robinhood bros first week day trading,"Trade mostly SPY options. I'm  in no way a professional. Just getting my feet wet to understand the emotional aspect of daytrading.
+
+Earlier on in the week I lost 1k on a trade in a day but made it back within the next. My wins are small and sparsed out( 1-3 trades per day max.).
+
+I didn't feel too bad  when I lost the 1k. I honestly felt I deserved it for being cocky so I was willing to give it to whomever was at the other side of the screen.
+
+Any advice on risk management? Because I feel it's easy to make money, but harder to keep it.
+
+I heard others say to be be patient in a trade but its hard to decipher if it's greed or patience to let a trade play out.",2,5,https://i.redd.it/6svtkswndmke1.jpeg
+1740199034.0,1ivaogq,Ask about my risk case in The5ers High Stake,"Hello guys, i just passed phase 1. One problem is i had 1 big loss in my entire stage. I'm consistently risk less than 1%, just put SL in the key level and 99% of the time i closed SL and TP manually. That day i placed 2 position of gold, and have to go out on an emergency i cannot check the phone as i expected, i didn't forget to set a SL. And GOLD was going crazy, much faster than i supposed. 2 SL were hit, i loss more than 4% for 2 positions. This is the only day that i loss much as that, my biggest profit is much more than my biggest loss and i never increase the lot size in my entire stage. Is there any risk for my account? Or i just need to be more careful in stage 2?
+",1,0,https://www.reddit.com/r/Daytrading/comments/1ivaogq/ask_about_my_risk_case_in_the5ers_high_stake/
+1740197246.0,1iva5qi,How long before you can call yourself profitable?,"What’s the benchmark for being a “profitable trader”? Is it having a certain number of profitable months in a row? Being positive for the year? How many months of consistency do you think it takes—3, 6, or more? Curious to hear your thoughts. ",0,45,https://www.reddit.com/r/Daytrading/comments/1iva5qi/how_long_before_you_can_call_yourself_profitable/
+1740196912.0,1iva282,Risk Management for my funded challenge,"I've been paper trading futures for a couple months, practicing with a $50,000 account. I have successfully ""passed"" TopStep's funded challenge (reach $53,000 without losing $2,000) a couple times and I'm gonna start the actual challenge next week. I wanted to share my risk management strategy here to hopefully get some feedback before I really go for this thing. 
+
+I will be trading MES because it gives me more flexibility with my stop-loss and contract size. I risk about a half a percent per trade so that it takes 8 losing trades to hit the MLL of $2,000, versus 4 trades at 1%. Trading ES just makes it too risky I think because with those risk rules I can only trade 1 contract and have very limited range with my stop loss (I usually target highs/lows which can vary, not always fitting within 20 ticks). With MES, I can trade more contracts to be able to take partials and leave runners while staying well within my risk rules. I know this approach will take me longer to reach $3,000 profit, but it seems like the smarter thing to do because I have confidence in my strategy.
+
+If I'm missing something glaring or you have any input please let me know, especially if you have experience passing these funded accounts. If this is good risk management, also let me know so I can let 'er rip. Thanks",1,0,https://www.reddit.com/r/Daytrading/comments/1iva282/risk_management_for_my_funded_challenge/
+1740193056.0,1iv8wbw,Spread betting or CFDS,"Hi all, I’ve recently started day trading and I’m doing quite well, I’ve been reading up on the tax side of things (I’m in the UK by the way) I’ve read that spread betting is tax free but trading CFDS is taxed and I’ve realised that I have no idea what I’m actually trading! I know they are similar but Is there a way I can find out if I’m spread betting or not? I’m using vantage markets and have pretty much been exclusively trading EUR/AUD. 
+
+TIA",3,9,https://www.reddit.com/r/Daytrading/comments/1iv8wbw/spread_betting_or_cfds/
+1740192870.0,1iv8u9f,Quick question,If I close this Bull credit spread . Would I get that 220 profit? ,7,3,https://i.redd.it/ndw3ebeuulke1.jpeg
+1740189459.0,1iv7qom,TEM down 21%,"What do you think of tempus? It’s down 21% this week after posting 90% returns over the last month. 
+
+Going to have to keep an eye on this Monday pre market to see how it’s doing.
+",1,3,https://www.reddit.com/r/Daytrading/comments/1iv7qom/tem_down_21/
+1740187291.0,1iv70sp,VX for the win again today,"My post about the VX being one of my key indicators yesterday got no love. Well VX broke that level that I mentioned and the sellers found strength exactly as I mentioned. Was grateful to catch a real nice piece of that short on MNQ. I only wish I had leveraged higher and also entered a position on MES. This isn't Pokémon, you can't catch 'em all.
+
+For those of you that are curious why the VX can be tied to overall market sentiment, it's because it is directly correlated to SPX options. A lot of the big dawgs in the market trade SPX options. If the VX is rising and breaking significant levels of resistance, it's because the big dawgs are buying puts on SPX. I hope a lot of you made money today, great end to my week for sure!",1,2,https://www.reddit.com/r/Daytrading/comments/1iv70sp/vx_for_the_win_again_today/
+1740187183.0,1iv6ziq,Ever thought that whoever you are as a person is showing in your trading activities?,"Most days are a green day for me but then there's one red day in the week and it's a damn blood bath because of poor risk management. Then it dawned on me, this is how I run my life as well, particularly my (past) relationships. 
+
+I think I can put up with a low quality setup. I ignore all the red flags and enter a trade knowing it's a trap. I like holding on to a trade thinking I can fix it. I don't know how to set my boundaries. I often don't set a stop loss and in a fight, flight or freeze situation, I freeze like when the trend is violently going down I just stare at my screen in awe of what's happening. I fall for losers all the time and stay in it for the long term cause my screener can't find anything better. I'm also impulsive and obsessive.  ",12,14,https://www.reddit.com/r/Daytrading/comments/1iv6ziq/ever_thought_that_whoever_you_are_as_a_person_is/
+1740186718.0,1iv6u0b,Computers,"Hi I have a couple of laptops, one chromebook and the other windows 11.  If I run Think or Swim, and Nasdaq, or Barchart, Momoscreener, Stocktwits, pretty soon my Chromebook will freeze up, and also the Windows laptop. What level of processor and memory do you all use?
+
+Thanks
+
+",0,0,https://www.reddit.com/r/Daytrading/comments/1iv6u0b/computers/
+1740186539.0,1iv6sg1,Will FTMO have an issue with my two account strategy for passing?,"I got 2 10k Evaluation accounts with FTMO and put in a buy on one and a sell on the other during news. This is how I passed stage 1 to save time.
+
+On stage 2 of this account I now only need £100 more to pass which normally takes me 5 days to make.
+
+I recently saw that this could be against the rules but they have not said anything to me yet. Will this be an issue when I pass?
+
+Any response is appreciated thank you guys and happy trading.",1,0,https://www.reddit.com/r/Daytrading/comments/1iv6sg1/will_ftmo_have_an_issue_with_my_two_account/
+1740185300.0,1iv6pby,4 years in - looking for advice to fix my trading problems,"I started trading 4 years ago. The last 3 years full time. I am in financial situation where I don't need ""a salary"" to pay the bills so I've been able to focus on my trading (like a student at university or something like that). 
+
+Here's a brief summary of my situation at this point:
+
+1. My technical analysis is quite good  
+2. My trading edge is clear and defined for me  
+3. It took me a long time, but I know exactly what I have to do in order to do profitable trades.  
+4. I know all the aspects of my strategy from the entry criterias to my ""trailling stop"" rules  
+5. My BIGGEST problem is on the mental side, THAT is what's causing me to be unprofitable at this point.  
+6. My drawdown is currently approx 5% of my account per month (used to be a much bigger number)
+
+7. I only trade small size because I'm trying to prove myself profitable with small money before using big money. Therefore the drawdown isn't putting a huge strain on my finances (thank God)
+
+To elaborate on #5 which is the cause of my problems:
+
+I DO NOT have a ""calm/ultra disciplined"" personality. I'm a rather creative/analytical person (I'm a mixture of LEFT side + RIGHT side of the brain). I have trouble with being disciplined and not acting out of impulse sometimes. I have a tendancy to overtrade despite my being aware of the problem. I've got the hardest time doing the same thing day in, day out. I'm a rather intense person and I'm struggling with being calm/steady/repetitive
+
+I know exactly what I have to do but its hard for me to reshape my psychology. Here's an example of my bad behaviour:
+
+A) I tend to usually stay up until midnight and wake up around 6:30-7:00AM
+
+B) I have trouble leaving my screens at times... meaning, I tend to want to ""trade everything"" and I have trouble being ""satisfied"" once I have made decent trades in the day.
+
+C) It feels oddly counter intuitive and irrational, but I have a feeling my using small size is sometimes the reason I tend to keep trading. I can easily make 10-20r (risk to reward) in one day but give it back through overtrading. In other words: My using a 5-10$ per trade risk, means when I'm done trading in the morning, I'm up 10x to 20x 5$ to 10$... so in other words: 50$ to 100$ profit usually. And obviously, since the goal is to become a full time day trader, when my eyes see 50$-100$ they fail to see the big picture of (compounding gains/interest)
+
+D) In terms of personality I have a really weird mix to deal with here because:
+
+\- In life I'm generally not the ""boss"" at a given job, I'm usually the #2 guy. I'm not the very best at taking on as much initiative and responsibility as a ""boss"" does. I usually excel and outperform when placed under good leadership  
+\- My near perfect balance between left/right side of the brain means I'm both creative and analytical. 
+
+  
+Conclusion: My personality is both my greatest strength and weakness. I always loved research and analysis in the past. I LOVE to teach myself stuff. I'm also ultra determined and do not ever give up until I get what I want. I'm usually LESS productive than other people because I spend the extra time required to figure things out, but that also means I sometimes waste time more compared to others.
+
+Basically, I'm looking for advice on how to deal with my mental/personality flaws as a trader. If I could follow my rules better and avoid overtrading (trading after hours or too much in the afternoon) I'd be set. I'm also at this point where I'm really questionning what to change and what to do different.
+
+  
+I also manage my kids RESP and my own RRSP. Both these accounts are doing better than my margin account. It seems its easier to manage money you ""don't care about"" too much (or not emotionnaly affected). Its also possible at this point I just need to take a break to reset. When I say I spent 3 years full time, full time would be an understatement, I spent countless hours working/journaling/reviewing/refining my edge. 
+
+TLDR: I spent a LOT of energy on ""technical analysis/refining my edge"" but my MUCH BIGGER problem to contend with is fixing my ""BEHAVIOUR"" problems/discipline.
+
+Any advice and feedback would be much appreciated. 
+
+",4,18,https://www.reddit.com/r/Daytrading/comments/1iv6pby/4_years_in_looking_for_advice_to_fix_my_trading/
+1740185163.0,1iv6nsi,Why is golden sun health technology up 50% after hours?,If anyone has any news on why this company is up 50%+ GSUN is the ticker. Is this one of those microalgo where it will continue to go up? ,1,0,https://www.reddit.com/r/Daytrading/comments/1iv6nsi/why_is_golden_sun_health_technology_up_50_after/
+1740184385.0,1iv6e97,Crude Oil Futures Forecast,"Huge short ready to play out next week! 
+
+Been watching this range for a while and now looks ready to break, whilst also waiting for this pullback to load up on a huge long. This trade can be played both ways if you’re patient.",1,12,https://i.redd.it/fzo0tdyl5lke1.jpeg
+1740184151.0,1iv6bdh,Taxes,"For the guys here that day trade full time , how do you guys file your taxes ? Through an llc ? 
+I do know what whatever you make from trading you would take full profit numbers and roll that on with your yearly salary ( W-2 ) but was just curious . Tax thresholds ? I’m confused lol ",1,1,https://www.reddit.com/r/Daytrading/comments/1iv6bdh/taxes/
+1740184150.0,1iv6bd0,Gold Futures,"Price holding up at the upper range of this month, the expectation for $3k could hit next week with money expected to flow into gold following poor economic data this week.
+
+
+
+",1,0,https://i.redd.it/fgk4ugww4lke1.jpeg
+1740184132.0,1iv6b5v,Can someone explain what this kinda ETF is like I don't understand this at all,"https://preview.redd.it/3joaqmui4lke1.png?width=1063&format=png&auto=webp&s=6a8061a9f492b6a109ba6d18143f6d708e05307d
+
+How does this work. What is this kind of fund. What do they do in building/managing a fund to make this kind of thing occur. It looks like the graph of a rugpulled coin lol (but over years not hours/days ofc)
+
+(I know this isn't really ""daytrading"" but I get better advice here pls don't remove)",1,1,https://www.reddit.com/r/Daytrading/comments/1iv6b5v/can_someone_explain_what_this_kinda_etf_is_like_i/
+1740184099.0,1iv6ara,"How I Made $1,330 Shorting a 30-Minute Cycle High (Step-by-Step Breakdown)","One of the biggest struggles in trading is knowing what to do when you don’t have a clear bias. If you’ve ever felt lost trying to figure out direction, this breakdown might help.
+
+📌 My Approach When There’s No Bias
+
+When I don’t have a directional bias, I rely on 30-minute cycle highs and lows as key POIs. These levels often act as natural turning points where price either rejects or breaks with conviction.
+
+📉 The Setup: Shorting a 30-Minute Cycle High
+
+1️⃣ Identifying the POI:
+	•	My key point of interest (POI) was a 30-minute cycle high.
+	•	Price violated the high but then rejected with force.
+	•	Confirmation: A Fair Value Gap (FVG) formed below the 30-minute cycle high, reinforcing resistance.
+
+2️⃣ Why This Was a High-Probability Short:
+	•	I boxed the 30-minute cycle high to observe how price reacted.
+	•	When price left the high aggressively, it confirmed weakness.
+	•	Underneath the 30-minute cycle high, there was a 1-minute FVG, acting as a true support.
+
+3️⃣ Execution:
+	•	Price retested the 1-minute FVG inside my boxed area and held as resistance.
+	•	As soon as price rejected and displaced lower, I entered a short position.
+
+4️⃣ Risk Management:
+	•	When price left multiple FVGs behind, I secured my stop-loss at +$70 to eliminate risk.
+	•	First take profit: 10 contracts were closed at the previous 30-minute cycle low.
+	•	Final take profit: Remaining 10 contracts were closed at the 1-hour FVG.
+
+🧠 Key Takeaways
+	•	When no bias, use cycle highs/lows for entries.
+	•	FVGs at key levels act as strong confluence.
+	•	Box your POI → Watch how price reacts when it leaves the level.
+
+💬 How do you approach trades when you have no clear bias? Let’s discuss!
+
+🔗 Full trade breakdown available  🎥 Check my profile for details!",0,0,https://www.reddit.com/r/Daytrading/comments/1iv6ara/how_i_made_1330_shorting_a_30minute_cycle_high/
+1740183824.0,1iv67dx,Referência de checagem e peso de importância de cada dado analisado em planilha excel e mapas mentais de estudos,"[Também hierarquizei as dúvidas na parte em vermelho usando formatação condicional, a parte verde é algo que ainda irei fazer, referente a padrões de candle e seu peso de relevância para análise, de forma que ao checar todas as coisas que encontrei em um gráfico que tornam o meu trade mais convexo, poderei mensurar com base no somatório de pesos o quão convexo é aquela operação](https://preview.redd.it/8wzuhifj2lke1.png?width=1253&format=png&auto=webp&s=d68e836424a81525879c166e8e820b80a6c387dc)
+
+[Nessa parte está incluso coisas que não são válidas pra análise, para que após um back teste ou forward test, seja validado que os que estão em vermelho realmente tem um peso baixo](https://preview.redd.it/r48mz6gn2lke1.png?width=414&format=png&auto=webp&s=37f71b9bd56d1ea5db857ad05668d1bff8470015)
+
+[Os em ciano a esquerda contém informações e dúvidas sobre o mercado de cfds, a direita em amarelo é sobre o mercado de hold, também há imagem e diagramas que sintetizam ideias e setups, ambos estão conectados no meio com coisas que estão relacionadas aos dois, hoje em dia eu faço mais hold, mas pretendo me tornar consistente em futuros em breve, abaixo são os gráficos que analiso e acima uma organização de tudo de forma geral, hierarquia de mercados e modalidades, estratégias de gestão e trabalhos que estão sendo feitos ](https://preview.redd.it/4h1mhonf3lke1.png?width=1164&format=png&auto=webp&s=303693258027071cbd12eb4def92130302464d5a)
+
+",0,0,https://www.reddit.com/r/Daytrading/comments/1iv67dx/referência_de_checagem_e_peso_de_importância_de/
+1740183687.0,1iv65mq,Copper Futures Forecast,"The market looks primed to roll back to the monthly opening price after some sideways action this week. With price coiling at last week’s lower range, expectation is this to play out as a distribution phase next week with a liquidity sweep to take out early shorts and trap longs.
+
+Poor economic data to support this idea with housing starts coming in softer than expected as well as existing home sales falling short of forecasts. 
+
+Good next week luck traders!",1,0,https://i.redd.it/0rz9n6bj3lke1.jpeg
+1740181622.0,1iv5erz,started $200 to $10k+ challenge and now at 1k+,"doing these small acc challenges to show y’all 
+following the trend , patience , entering with confirmation & simplicity is the key to trading 🔑
+
+last 2 post is the trade i hit today as well for an 300%+ gainer on $QQQ 
+
+for the last trade i seen that $QQQ didn’t make new highs on the higher time frame telling me that price is now bearish , if price is in a bearish trend that means you look for sells/puts , waited for price to retest a prev support area and waited for confirmation and entered 
+
+
+
+
+",45,11,https://www.reddit.com/gallery/1iv5erz
+1740180707.0,1iv534w,Can someone help me figure out how to calculate my lot size?,"https://preview.redd.it/zp47tdd2ukke1.jpg?width=643&format=pjpg&auto=webp&s=71486347fba642d3b906c2b402562411976df77e
+
+https://preview.redd.it/c00avuc2ukke1.jpg?width=639&format=pjpg&auto=webp&s=31c392575b2f981b797f2015a2445306494c8a2a
+
+I asked customer support at Maven Trading about contract size and they pointed me to ""point size"" and ""min. position size"". This may be a dumb question, but how do I figure out my contract size using this information?",1,0,https://www.reddit.com/r/Daytrading/comments/1iv534w/can_someone_help_me_figure_out_how_to_calculate/
+1740180019.0,1iv4u7z,"Stock Market Today: Celsius’ $1.8B Bet on Alani Nu + Novo Ends Ozempic Shortage, Crushing the Copycats","* Stocks slid Friday, with the S&P 500 dropping 1.7%—its worst day in two months—while the Dow lost 748 points and the Nasdaq fell 2.2%. Weak economic data and lingering policy uncertainty had investors tapping the brakes.
+* A massive $2.7 trillion in expiring options fueled volatility, dragging all three indexes lower. After a strong start to the week, markets couldn’t hold their gains.
+
+# Winners & Losers
+
+# What’s up 📈
+
+* **MicroAlgo** skyrocketed 453.0% after unveiling a new quantum computing algorithm. ($MLGO)
+* **MicroCloud Hologram** soared 31.9% following news of its latest advancements in quantum technology. ($HOLO)
+* **Celsius Holdings** popped 27.77% after reporting record quarterly revenue and acquiring Alani Nutrition. ($CELH)
+* **Novo Nordisk** rose 5.18% after the FDA announced the resolution of the Ozempic and Wegovy shortage. ($NVO)
+* **Alibaba** climbed 5.72% to a new 52-week high as GameStop CEO Ryan Cohen increased his stake to $1 billion. ($BABA)
+* **Nissan** gained 5.39% on reports that the automaker may seek investment or a deal with Tesla. ($NSANY)
+* **MercadoLibre** added 7.09% following a strong Q4 earnings report, with EPS of $12.61 vs. $7.93 expected. ($MELI)
+
+# What’s down 📉
+
+* **Hims & Hers Health** plummeted 25.79% after the FDA’s decision to remove Ozempic and Wegovy from the shortage list, affecting its compounded weight-loss drug business. ($HIMS)
+* **Spirit Airlines** tumbled 24.08% after a judge ruled that the airline must cancel existing equity shares as part of its debt restructuring. ($SAVE)
+* **Block** sank 17.69% after missing Q4 revenue and earnings expectations, despite surpassing forecasts for payment volume. ($XYZ)
+* **Dropbox** fell 16.15% on lower 2025 expectations for its cloud storage business. ($DBX)
+* **Akamai Technologies** dropped 21.73% after issuing a weaker-than-expected Q1 forecast. ($AKAM)
+* **Rivian Automotive** declined 4.70% after forecasting lower vehicle deliveries for 2025, despite posting its first gross quarterly profit. ($RIVN)
+* **Tesla** slipped 4.7% after issuing a recall of 380,000 vehicles due to power steering issues. ($TSLA)
+
+# Celsius’ $1.8B Bet on Alani Nu Sparks Short Squeeze 
+
+Celsius just went all in on its energy drink empire, announcing a $1.8 billion acquisition of rival Alani Nu—and Wall Street is buzzing. The stock soared 35% Friday, its biggest jump since May 2020, sending short sellers scrambling with $250 million in paper losses. With 22% of Celsius’ float shorted, the deal triggered a classic short squeeze, forcing bears to cover their bets as bullish momentum took over.
+
+**A Shot of Growth or Cannibalization?**
+
+Celsius’ move is a response to slowing revenue growth, as competition from Red Bull, Monster, and newer entrants like Alani Nu eats into its market share. CEO John Fieldly argues the deal will create a $2 billion sales juggernaut, comparing Alani Nu’s growth trajectory to where Celsius was two years ago. But some analysts are skeptical—both brands target the same young, health-conscious consumers, meaning they could end up cannibalizing each other rather than expanding the market.
+
+**Pepsi, Distribution Wars, and a Defensive Play?**
+
+Adding another layer of complexity, Celsius relies on PepsiCo for distribution, while Alani Nu partners with Anheuser-Busch. That means the two brands will be battling for shelf space, at least in the near term. Some analysts believe this deal may be more about playing defense than offense, with Celsius looking to secure its dominance before competitors squeeze it out further.
+
+Even with this rally, Celsius is still down over 50% from its 2024 highs, as its rapid expansion hit roadblocks. For now, investors are buying into the hype, but the real test comes down to execution. If Celsius successfully integrates Alani Nu without eroding its own sales, it could cement its dominance in the fast-growing “better-for-you” energy drink space.
+
+But if brand overlap leads to self-cannibalization, the deal could backfire, turning a short squeeze rally into another selloff. Investors will be watching closely to see if this acquisition fuels sustainable growth—or just a temporary sugar high.
+
+# Market Movements
+
+* ⚖️ **DOJ Investigates UnitedHealth Over Medicare Billing Practices**: The Department of Justice has launched a civil fraud probe into UnitedHealth, examining whether diagnoses inflated Medicare Advantage payments. Shares of the company fell 10% premarket as investors reacted to the investigation ($UNH).
+* 🚨 **SEC Drops Coinbase Lawsuit Pending Commissioner Approval**: The SEC has agreed to dismiss its case against Coinbase, which alleged the company operated an unregistered securities exchange. The decision, pending commissioner approval, sent shares up 4% premarket ($COIN).
+* 📊 **OpenAI Reaches 400 Million Weekly Users Amid AI Boom**: OpenAI’s user base has surged 33% in the last three months, hitting 400 million weekly active users. The company now has 2 million paying enterprise customers, despite growing competition from DeepSeek ($MSFT).
+* 🖐 **Nvidia Launches AI-Powered ASL Teaching Tool**: Nvidia has introduced ""Signs,"" an AI-based platform designed to teach American Sign Language, marking an expansion of its AI applications beyond hardware ($NVDA).
+* ✈️ **JetBlue Expands Talks for Airline Partnership After Blocked Mergers**: JetBlue is negotiating with multiple airlines to form a new partnership after courts blocked its merger with Spirit Airlines and alliance with American Airlines. The airline aims to strengthen its competitive position and enhance its loyalty program ($JBLU, $SAVE, $AAL).
+* 🚗 **Foxconn Proposes Auto Alliance with Honda, Nissan, and Mitsubishi**: Foxconn has proposed a partnership with Honda to form a broader alliance, potentially including Nissan and Mitsubishi. The move aligns with Foxconn’s growing interest in the EV market and automotive investments ($HMC).
+* ⚡ **Italy Investigates Automakers Over EV Range and Battery Claims**: Italy’s antitrust authority is probing Stellantis, Tesla, Volkswagen, and BYD for allegedly misleading consumers about EV range, battery degradation, and warranty terms ($STLA, $TSLA).
+
+# Novo Ends Ozempic Shortage, Crushing the Copycats
+
+Novo Nordisk just pulled the rug out from under the booming market for knockoff weight-loss drugs. The FDA declared the Ozempic and Wegovy shortage officially over, meaning compounding pharmacies—who’ve been cashing in on cheaper, unregulated versions—are about to lose their free pass. The news sent Novo’s stock up 5%, while Hims & Hers Health, a major seller of compounded semaglutide, tanked 26% as investors scrambled to assess its future.
+
+**No More Loopholes for Knockoff GLP-1s**
+
+With Novo finally producing enough supply, compounding pharmacies have 60 to 90 days before the FDA forces them to shut down production of identical copies. Some, like Hims & Sesame care, claim they’ll tweak the formula to keep selling ""personalized"" versions, but the days of mass-produced, low-cost alternatives are numbered. Novo and Eli Lilly have long fought to get these off the market, arguing that compounded versions lack the same safety and quality controls as their FDA-approved drugs.
+
+**Hims & Hers’ Backup Plan: Make Its Own Drugs**
+
+Hims & Hers saw the writing on the wall. Just hours before the FDA’s ruling, the telehealth company announced it bought a U.S.-based drug manufacturing plant, allowing it to develop its own versions of GLP-1 meds. CEO Andrew Dudum insists demand for customized obesity treatments will keep the business afloat, even if standard compounds get axed.
+
+**Novo’s Big Bet on Weight-Loss Drugs Is Paying Off**
+
+After spending $6.5 billion beefing up production, Novo can finally supply its blockbuster drugs at scale—just as Eli Lilly ramps up competition in the $100 billion weight-loss drug market. But analysts warn that demand is still outpacing supply, meaning future shortages (and a lifeline for compounders) aren’t off the table just yet.
+
+# On The Horizon
+
+# Next Week
+
+Next week starts off quiet, with just the S&P Case-Shiller home price index on Tuesday and new home sales data on Wednesday. Things pick up Thursday with jobless claims, pending home sales, a GDP revision, and durable goods orders offering a broader look at the economy.
+
+The real highlight comes Friday with the PCE report—the Fed’s go-to inflation gauge. With rate-cut speculation heating up, this data will set the tone for March’s policy meeting. Adding to the noise, eight Fed officials are set to speak throughout the week, giving markets plenty to dissect.
+
+# Earnings:
+
+* **Monday:** Zoom ($ZM), Domino’s Pizza ($DPZ), and Hims & Hers Health ($HIMS) 
+* **Tuesday:** Home Depot ($HD), Intuit ($INTU), Workday ($WDAY), American Tower ($AMT), First Solar ($FSLR), Cava ($CAVA), Caesar’s Entertainment ($CZR), AMC ($AMC), Viking Holdings ($VIK), Planet Fitness ($PLNT), and Krispy Kreme ($DNUT) 
+* **Wednesday:** Nvidia ($NVDA), Salesforce ($CRM), Lowe’s ($LOW), Snowflake ($SNOW), TJX Companies ($TJX), eBay ($EBAY), AB InBev ($BUD), Stellantis ($STLA), AmBev ($ABEV), Paramount Global ($PARA), Advance Auto Parts ($AAP), Sweetgreen ($SG), and Urban Outfitters ($URBN) 
+* **Thursday:** Toronto Dominion Bank ($TD), Dell ($DELL), HP ($HPQ), Vistra ($VST), Monster Beverage ($MNST), Norwegian Cruise Lines ($NCLH), Warner Bros. Discovery ($WBD), Hormel Foods ($HRL), The Mosaic Company ($MOS), Bath & Body Works ($BBWI), CubeSmart ($CUBE), and Duolingo ($DUOL) (RIP Duo) 
+* **Friday:** Sphere Entertainment ($SPHR) and FuboTV ($FUBO)",3,0,https://www.reddit.com/r/Daytrading/comments/1iv4u7z/stock_market_today_celsius_18b_bet_on_alani_nu/
+1740180003.0,1iv4u09,What is this called?,"I know fvgs are when candles do not touch but what are these gaps in bodies but where the wicks are touching 
+
+I’m noticing price action has been using these more and more ",0,12,https://www.reddit.com/gallery/1iv4u09
+1740179937.0,1iv4t3z,Brand new to day trading,"I just started looking into day trading as a new project of mine and Im a tad confused about a few things. I was trying to day trade the s&p 500 etf and when I was I was trying to only risk 2% of my account to try and make 2% back. It’s a 100,000 dollar paper account rn but each time I went into the trade for 2% I would only make 28-30 bucks on a 2000 dollar trade that I would hit. Is it because I need to have more shares of the underlying stock rather than 4 units? But ik I’m not supposed to yolo the whole account for 2k lol. Sorry I’m really new to this I’m just not sure how people make the 2k plays to make the 2% on a 100,000 dollar stock account in minutes what are they trading? How do I get more units without putting in the full 100,000k for 2k payouts??? ",2,3,https://www.reddit.com/r/Daytrading/comments/1iv4t3z/brand_new_to_day_trading/
+1740179875.0,1iv4sad,0DTE SPX Call & Put Credit Spreads,"Long time options trader here, I have a history of using theta decay strategies for 30DTE+ options to generate extra income, but as of recent I've gotten into day trading 0DTE credit spreads on SPX. 
+
+Here is my strategy: Use MACD, put/call ratio, exponential moving averages, and RSI to get a feel of which way SPX is headed for the day. I only trade 1 hour after market open. Once I've made the determination I open put credit spread if SPX is moving up, or a call credit spread if it is moving down. The strike of the write side of the spread is between $20 - $30 OTM. I close the position when my gain is 80% or when the loss is -40%. Thus far my P&L for this week is $4150. 
+
+My questions to all: Are there any recommendations towards refining my strategy? Am I taking too much or too little risk? Are there any other indicators that I should be using?
+
+Thank you in advance. ",0,5,https://www.reddit.com/r/Daytrading/comments/1iv4sad/0dte_spx_call_put_credit_spreads/
+1740179504.0,1iv4n87,Beginners: Focus on growing your intuition through consistency,"There's too much emphasis on trading strategies being the key to success. 
+
+Real skill comes from recognizing subtle patterns that can’t always be written as strict rules.
+
+While you might have a certain pattern that forms the basis of your entry signal, there are too many variables involved to succinctly describe one ""profitable day trading strategy"".
+
+For example, your entry signal may be influenced by:
+- Float size 
+- Relative volume 
+- Time of day 
+- Preceding candle 
+- Daily chart 
+- Previous day/pre-market high 
+- Moving averages 
+- Recent news
+- Market trend 
+- Order flow 
+- Short interest 
+- Industry 
+- Candle printing speed  
+
+Intuition is rapid pattern recognition built from thousands of hours of trading.
+
+Over time, you witness all of these variables interacting and eventually get a ""feel"" for optimal trades. 
+
+As beginners, we should focus on being CONSISTENT - executing the same setups, reviewing trades, and building the chart time required to develop trading intuition.
+
+Success comes from deeply understanding the context of each trade, not just memorizing a strategy. ",2,7,https://www.reddit.com/r/Daytrading/comments/1iv4n87/beginners_focus_on_growing_your_intuition_through/
+1740179252.0,1iv4jv5,Stress Test Your Trade Ideas,"[Stress Test Questions I ask ](https://preview.redd.it/17a61gtbpkke1.png?width=1386&format=png&auto=webp&s=09e96c0234e13d2f64df4b39488a960a3af04dfb)
+
+[A trade I lost on that I would've avoided \(answered retroactively\). I won't take trades like this going forward. ](https://preview.redd.it/siktge5gpkke1.png?width=1706&format=png&auto=webp&s=e23f2a5de03b53eaa264b18643a29fc495edf574)
+
+I do it in excel and track it with my trade data!  
+So after enough data, I will be able to filter and get an even better idea of my stats too. That is just a side benefit though. 
+
+The real power of this is making sure (with objective evidence) that my trades are good before I enter. I even color coded it too to give a clear picture with green = good. beige = neutral. and red = bad/avoid or seriously reconsider. This helps with friction and selectivity, making sure I am entering only the best ""pocket aces"" trades. It will give me more confidence to hold and help me be more objective / rational through the mechanical nature of answering these. 
+
+What do you think?
+
+  
+\-Pete",1,0,https://www.reddit.com/r/Daytrading/comments/1iv4jv5/stress_test_your_trade_ideas/
+1740178910.0,1iv4f8b,When will I learn?,"I had a terrible day today. Didn’t have my stops in and had some positions go south during the sell off today. Then I rode them all the way down. Anyone else do stupid stuff like this?
+
+I guess that’s why people fail until they learn to follow their own rules and be disciplined. 
+
+Thoughts?",14,34,https://www.reddit.com/r/Daytrading/comments/1iv4f8b/when_will_i_learn/
+1740177420.0,1iv3uf4,Second month day trading,"Pretty happy, took up day trading at the end of 2024, started paper trading in January of this year. In January, I had a 63% win rate but a lot less volume… I think 11 trades total. 
+
+Won’t go into my strategy but I trade futures. 
+
+Not really sure the point of me posting this, just kind of wanting to see what you all have to say or any advice going forward.
+
+Hope everyone is having a good day!",453,70,https://i.redd.it/zc7lwdkwkkke1.jpeg
+1740177396.0,1iv3u3b,How I became profitable,"I’ve been trading on and off for about 6 years.
+It took me 5 to become profitable not because I didn’t know what I was doing, but because I blew up every account I ever had . At least 20 times
+
+I had to take a step back and do some deep self reflection as to what was holding me back. I had excellent technical analysis , I was trading the same few instruments, I knew how they move like the back of my hand, I was an expert in trading platforms and how to use them, I knew everything I needed about contracts and what strike prices etc everything you name it I had it all checked off
+
+The only thing I didn’t have checked off was following my rules religiously. I would constantly over trade , revenge trade, turn winners into losers, take just one more trade ( always turned into a few more trades) full port etc. I was an emotional trader
+
+The moment I said and ACTED ON RULES
+
+“ I will follow my rules no matter what” 
+“ I will respect my daily max loss no matter what” 
+“ I will only trade within my appropriate position size no matter what” 
+“ I will only take my A+ set ups no matter what” 
+“ I will only take 1-3 trades no matter what”
+“ I will sign off after two small loses no matter what” 
+“ I will not remove my stop loss no matter what” 
+“ I will sign off after a good trade no matter what” 
+
+Is when I had consistently profitable weeks .
+Yes I had losing days , but I always recovered within a day or two and I avoided large loses 
+Yes I didn’t make huge profits some days , but I added up wins to have winning weeks
+Yes I wanted to make more money, but I remembered all the times I went green to red 
+
+To any traders struggling but have a good system. The system is not what is holding you back, it’s your ability to let the system play out without making devastating mistakes.
+
+You must re wire your mind to think in these ways and it WILL get you over that hump
+
+
+Edit: While psycholoy is important in trading, it's only relevant if you have the technicals and fundamentals down. ",792,246,https://www.reddit.com/r/Daytrading/comments/1iv3u3b/how_i_became_profitable/
+1740177053.0,1iv3pjy,3rd day day trading,"I invested solely in MLGO today. I kept buying 100x shares at a pullback and by around 2:45pm I had made over $250 today. Around 3:00, it started pulling back and I placed a limit order at $9.98. But after going down to about 9.90 or so, this shit dropped straight to around 8.25ish. I held onto it hoping it would go back up because it has been extremely volatile today and I do believe there was a solid chance of it going to where I could've at least broke even. But it kepd going down. I cashed out at $7.10 per share at around 3:45 and it closed at about $6.36. So after that trade, I walked away with about $30 profit today.
+
+I've just turned 18 and this is my third day day trading. My account started at 1k, went down to 966 on the first day, went to like 969 yesterday, and today it's now at $1,011. (some of that is from long term investments in CVX). 
+
+That last trade I made probably wasn't the most ideal but I feel that if I did manage to make $250 today, I must be onto something. I feel like I'm at the point where I'm just starting to figure out a strategy. I can read basic candle charts but I still don't have a sense of more advanced patterns or anything. Any advice would be great.",0,5,https://www.reddit.com/r/Daytrading/comments/1iv3pjy/3rd_day_day_trading/
+1740176309.0,1iv3fd7,Reminder to trust your gut.,Overtraded today when my gut told me not to. Still ended green but could’ve been much more. I have a small account so I should’ve been satisfied with what I had instead of wanting more. Lost most of what I gained today and wasn’t following my strategy in the end. Still newer to trading and first time on my own live account so still much to learn.,33,11,https://www.reddit.com/r/Daytrading/comments/1iv3fd7/reminder_to_trust_your_gut/
+1740176243.0,1iv3ef4,Any Momentum Day Traders in London?,"Hey everyone,
+
+I’ve recently started my journey into momentum day trading, and as we all know, it can be a pretty solitary grind. Looking to see if there are any fellow traders in the UK—especially London—who’d be up for chatting, sharing insights, or even meeting up at some point.
+
+Would be great to exchange strategies, discuss setups, or just have people to talk to who understand the ups and downs of this game. If you’re interested, drop a comment or DM me!
+
+Cheers!",1,0,https://www.reddit.com/r/Daytrading/comments/1iv3ef4/any_momentum_day_traders_in_london/
+1740176113.0,1iv3clb,Reflection on this week’s trading GBP/USD,"So pretty solid week trading this pair. Made £9k and implemented some changes to my overall strategy for better risk mitigation, particularly to this increasingly volatile pair, plus the potential for Trump to post something wild.
+
+A couple of key insights;
+
+* MACD is the single strongest indicator for this pair
+* I need to be reviewing all trades at the 5m, 15m, 30m and 1hr time frames. 30 mins seems to be overall most reflective of short term trends
+* I switched brokers from T212 to IC markets. On paper far better spreads and charges
+* Ive qualified for a ‘pro’ level account (paperwork provided) to prove I move volumes and have a high net worth. This gives me up to 1k:1 leverage which is helpful, but probably won’t use, plus some more decent access to proper hedging protection, which Ill need to research
+
+I think that’s all for now, maybe come back and add more detail when I remember something.
+
+thanks
+
+https://preview.redd.it/3ax2s960hkke1.png?width=620&format=png&auto=webp&s=221a2f0f00f645c883554b0bd84d56491bd635a5
+
+",2,0,https://www.reddit.com/r/Daytrading/comments/1iv3clb/reflection_on_this_weeks_trading_gbpusd/
+1740175845.0,1iv38t0,Week 08 Recap 200% from 25 trades,"I used 3 strategies this week. (Note. I track 3000+ stocks that are between $0.2 to $20 with float below 20m)
+
+https://preview.redd.it/8jbf1eyufkke1.png?width=1686&format=png&auto=webp&s=ecdad4f57875484128e3b5d9606fea15522ab7ae
+
+1. Halted stocks, when resumes if dropped then draw a fib retracement and buy in with other indicators confirmation. Example trade today:
+
+https://preview.redd.it/hdh3pwt6fkke1.png?width=676&format=png&auto=webp&s=51570519da08b409db603c06ac9fd1e9cc439bde
+
+2. Is from 1mil volume trades, everytime it hit 1mil volume I get alerted, and that get my attention to watch a stock breakout and get in for scalping. 
+
+3. Breakout stocks that had 100k-500k volume with the news coming out. 
+
+  
+",18,0,https://www.reddit.com/r/Daytrading/comments/1iv38t0/week_08_recap_200_from_25_trades/
+1740174801.0,1iv2tvk,Spx ADL Divergence,"https://preview.redd.it/xkio06p9dkke1.png?width=1918&format=png&auto=webp&s=de3b14137a32d26ce06a6f2d6371d0965d4953ad
+
+Hello all.
+
+I'm seeing a huge ass ADL divergence on SPX.
+
+Last time that happened it was the market top in 2022 January.
+
+I think the party is over and its time to take caution. What yall think? Do we still have more upside left according to whatever data you guys are using.",1,5,https://www.reddit.com/r/Daytrading/comments/1iv2tvk/spx_adl_divergence/
+1740173128.0,1iv25t0,Ended the week with two wins.,"Got some beautiful setups at the end of the week, how was your week?",20,1,https://www.reddit.com/gallery/1iv25t0
+1740172885.0,1iv22c9,The beatings will continue until your trading improves or you quit,"As an aspiring day trader you have to prepare yourself to be beaten to a pulp. The market will open a new can of woop-ass for you every single day until you'll have what it takes to face it or quit.
+
+Day trading is brutal and the only way to be successful is by being beaten so hard that the lessons are ingrained into your body and your soul for the rest of your trading career. 
+
+So as an aspiring day trader you have one job : surviving the beatings.",91,24,https://www.reddit.com/r/Daytrading/comments/1iv22c9/the_beatings_will_continue_until_your_trading/
+1740172722.0,1iv200m,Supply/Demand strategy using order blocks & fvg,"I trade futures (NQ). I am trying to refine my strategy. I like order blocks and fvg. But I am having a hard time to get the timeframe alignment down. I use the Daily, 1 HR and 5 min, sometimes 15 seconds. Anyone else use these as confluences?
+
+  
+When I get on the chart, I do top down analysis with those time frames. But I am trying to see, should I be waiting for choCH on 5 minute and rejection for an entry? It's a bit confusing to piece together. 
+
+  
+I watched TTRADES and some other guys timeframe alignment video but it just isn't making sense lol. ",2,0,https://www.reddit.com/r/Daytrading/comments/1iv200m/supplydemand_strategy_using_order_blocks_fvg/
+1740172159.0,1iv1s1p,For you highly professional day traders…,"Is there a way to set a predetermined stop loss while also being able to execute a market order whenever you want? I understand theres an OCO order but with that it has to be a limit order where you take profit, and trading with momentum you might want to free trade it until it stalls which involves market order, or say I didnt quite make the take profit and i still want to sell to be in green, how would i mange that?",1,12,https://www.reddit.com/r/Daytrading/comments/1iv1s1p/for_you_highly_professional_day_traders/
+1740171553.0,1iv1j8j,Next Week Earnings Releases by Implied Movement,,16,2,https://i.redd.it/vy0pdt9d3kke1.png
+1740171440.0,1iv1hmw,VOLD calculation??,"Anyone know from the indicator at this time stamp in this SMB tutorial (link below) how they're getting this ratio? I only see a couple of not very popular options on TradingView and I don't think they're quite tracking it the same way. VOLD itself as a market internal shows massive numbers and isn't really giving me a ratio, do I take the UVOL and DVOL internals individually and divide the greater by the lesser to get the same ratio or are they looking at something else like VOLD divided by total volume ($TVOL)?  
+
+
+I like the idea of setting alerts for a 3+ ratio among other factors like where $ADD is holding so that I might know when to either size up or extend my take profit strategy for that period, hoping for a greater follow-through, but I don't even know how they're getting this ratio and they don't explain it in the video. It seems like comparing the % distance of VOLD from a 5-day moving average might produce something usable but I'd rather use what others have already found to work.  
+  
+[https://youtu.be/wkuR2Z0IVhQ?t=1271](https://youtu.be/wkuR2Z0IVhQ?t=1271)",1,0,https://www.reddit.com/r/Daytrading/comments/1iv1hmw/vold_calculation/
+1740170510.0,1iv14bh,How do you know if a stock will be a whale 🐳,"
+I made 9% from MLGO today but obviously got out early as it flew over 500% +. What tools, indicators, knowledge do you use to differentiate between stocks that go up 50% to the ones that fly 200-500%? ",0,4,https://i.redd.it/0pk9cexc0kke1.jpeg
+1740170022.0,1iv0x70,If I would’ve held shorts today,"Nothing hurts more than hindsight 😭😭😭
+Went short this morning literally when the market starting dumping with 1 contract. Sold for 1170, just for it to go to 8k + a few hours later 
+
+Sighhhh",1,14,https://i.redd.it/s9tx37jwyjke1.jpeg
+1740169830.0,1iv0uco,Starting up again,"I’m 19,turning 20 in a couple months going to finance school for merging and acquisitions I’ve been trading on and off for 2 years going on 3 with little to no profit on a live account,trading forex,futures,commodities,etc. I’m not trying to get rich or famous by any means through trading just trying to able to gain experience for my career and make some extra cash for internships and school,so finally decided to take things seriously this year and start up a new demo with a new strategy. The strategy I’m using is trend lines and I’m currently trading forex.I’m seeking advice on what I can improve on,been working on my psychology but it’s hard to believe I deserve to make money because of my low income background as my family is agriculture and blue collar based any advice would be greatly appreciated.Here’s my strategy set up and profit for the week…",1,0,https://www.reddit.com/gallery/1iv0uco
+1740168420.0,1iv0ak4,SOLUSDT : From 60€ to 1300€ then -5k €,"I’ve started experimenting training months ago in fall 2024. 
+
+I’ve lost some hundreds of money but nothing really worrying, I was gambling at the beginning. But slowly, I’ve became better. 
+
+In December, I’ve put 60€ in Kucoin, and doubled it the first day, then went to 200€ then 250€ until I’ve reached 600€. 
+
+I’ve started feeling invincible knowing than I could x10 in 10 days. I even became obsessed with trading, from waking up to going to sleep (late). 
+
+During that weekend, I’ve traded non stop and went from 600 to 900 Saturday, then from 900 to 1300 Sunday, but I was so excited that I was shaking, checking my phone every second, thinking that I could reach 10 k in a month. 
+
+I was so sleep deprived that I sleeped on a trade and woke up close to liquidation. I was left with 170€. 
+
+It was 5 am and I couldn’t help but throw the 170 with high leverage as a desperate attempt to get more. I’ve lost it in a second, then started throwing my own money. 
+
+I have started compulsively trading and I couldn’t stop. I’m very predisposed to addiction because I can have poor self control (when sleep deprived). 
+
+I kept throwing money until I’ve lost a bit more than 4k in 2 weeks. I feel bad, ashamed, hopeless and in the verge of committing bad things. 
+
+I know it wasn’t just luck but I also know that  risk management was poor. 
+
+I’m thinking only trading a prop firm challenge, until I prove myself that I can be disciplined enough. Also limiting myself to one challenge account per week if I blow it up, to limit losses….
+
+I’m feeling depressed and worthless…
+
+What are you thoughts , advices ? 
+
+Have you been through this then got better at trading ?
+
+",1,0,https://www.reddit.com/r/Daytrading/comments/1iv0ak4/solusdt_from_60_to_1300_then_5k/
+1740168368.0,1iv09sz,New to day trading,"Hello, I'm from the UK and have just started day trading, I was just wondering if anyone knows the tax rate for capital gains as I also have a full time job, any advice?",1,0,https://www.reddit.com/r/Daytrading/comments/1iv09sz/new_to_day_trading/
+1740168303.0,1iv08un,The Hardest part of trading...,"I have been trading for more than a year now and as a beginner I am getting much better. For me the hardest part of trading has been: ""Staying out of market and not trading"". If I am patient and stay out of the market when my setup is not showing up I can make money. The mindset of you need trade everyday is not correct in my opinion. ",52,20,https://www.reddit.com/r/Daytrading/comments/1iv08un/the_hardest_part_of_trading/
+1740167859.0,1iv02bc,leaving money on the table,"how can i get over CONSTANTLY leaving money on the table? this put is currently up 1,5600% and i sold at 720%
+i have been thinking about using a limit sell for the low of the contract per candle on robinhood which honestly seems tricky with options, but just in general, what strategies do you use to not leave money on the table? 
+i've been trying to do more scalping but that inevidably leads me to this, over and over again. 
+i bought this put at $0.14, sold at $1.22, now it's around $3.20 😭",1,0,https://i.redd.it/utjkwt5hsjke1.jpeg
+1740165375.0,1iuz2qo,FreedomTeam Trading any experience?,"Hey I was contacted by 1 of the members of freedom team trading run by Jordan F . He has a YouTube channel aswel 
+
+Any one took his course they seem fairly new and I couldn’t find a feedback on google hence asking ? ",2,1,https://www.reddit.com/r/Daytrading/comments/1iuz2qo/freedomteam_trading_any_experience/
+1740164555.0,1iuyqvq,Financial Release Schedule,"Is there a place that lists when consumer reports, inflation reports, and Fed data will be released? I didn't see anything on FinancialJuice and I'm sick of getting blindsided by huge sell offs like today.",1,0,https://www.reddit.com/r/Daytrading/comments/1iuyqvq/financial_release_schedule/
+1740162992.0,1iuy3rw,Still Over trading. Send Help,If I just walked away after the first half hour of reading I'd be up $12k over the past three days. Instead I'm up $2800 and gave most of it back to the market. How do you stop wanting more?,2,23,https://www.reddit.com/r/Daytrading/comments/1iuy3rw/still_over_trading_send_help/
+1740161987.0,1iuxovu,is there a strategy for holding stock for the day,"I use to hold the highest gainer stock buying in premarket and selling during the open market. I have had some success, but following Ross Cameron's 4-5 mins hold I feel I am on a long loser streaks than I recall. I am a typical newbie who has been through the Fomo and greed. Is there such a strategy for holding during the premarket and selling during the open.",1,0,https://www.reddit.com/r/Daytrading/comments/1iuxovu/is_there_a_strategy_for_holding_stock_for_the_day/
+1740161850.0,1iuxmw7,17 - looking to start,"I’ve been in and out of looking at trading for a while now. I’ve seen the profits (and losses) and was looking for help. Can anyone give me advice, something that you would tell yourself or that you wish you knew when you started? The best books and videos to watch and read? Currently i’ll only be learning on demo accounts obviously until i build up capital to learn with, but anything that can help break down the whole trading scene is appreciated. ",3,10,https://www.reddit.com/r/Daytrading/comments/1iuxmw7/17_looking_to_start/
+1740160437.0,1iux20i,Is this guy Ross Cameron and his results real?,"I have been watching his videos for the past month or two, this dude never has a red day. And posts like 10 - 50k gain days everyday. 
+
+And when he makes videos about him having a bad day, he “only” made like 8k. 
+
+Is this guy real? How can you make that much daily and never have a losing day. ",213,184,https://www.reddit.com/r/Daytrading/comments/1iux20i/is_this_guy_ross_cameron_and_his_results_real/
+1740159801.0,1iuwsew,Looking for advice from experienced Daytraders and Scalpers,"Hello,
+
+My intention is to become a profitable trader, thats it. I have a job that pays well, but I want to learn the art of trading. I've been trading for about 4 months, and I have lost about 2500$. This is fine, I kind of knew I would lose money, and it was money I could afford to lose. Why did I do it if I knew I would lose the money? Well, my mindset when I started was that ""what if I can do this, and I end up paper trading and making good profit on paper, instead of real profit""? Yes, its a weird mindset to have. Anyway, I wanted to be honest so lets get to the point.
+
+Everynow and then I see advice in here, that in order to become consistently profitable, one has to put in the **time** and find an **edge**/learn a **strategy** that works for **YOU.**
+
+This I totally understand, and I've accepted that I will have to learn by paper trading, OR, trading 1 share at a time - otherwise I will probably blow up my account.
+
+But what I find difficult is, when studying all the various strategies (reddit, youtube, books, etc.), how to filter out the ""bad ones""? Do I really need to start testing each strategy in a paper account for months and months to build a journal and see if it works or not, just to conclude ""nope, this is not profitable"", only to go to the next potentially bad one. Rinse and repeat.
+
+Or, could we try to list down a few strategies that you, experienced day traders/scalpers, have learned to be profitable with? Maybe with a short explanation how it works, what is the edge, or information about where one can learn more about it? I think it would be easier to get started by having some direction.
+
+  
+Thanks, and sorry if this is the 1000th time this kind of question is posted!
+
+",1,8,https://www.reddit.com/r/Daytrading/comments/1iuwsew/looking_for_advice_from_experienced_daytraders/
+1740157512.0,1iuvu27,Anybody else catch MLGO?,Uses 5m break and retest and entered at $3.40. Seeing if this popped up on anybody else's scan,8,23,https://i.redd.it/ql2p9sgpxike1.jpeg
+1740156390.0,1iuvdc9,Beginner trading - making £2400 my first month 🎀,"Using £2k, I have consistently traded every trading day, coming out on profit every day. My favourite to trade has been 3xPalantir - I have been using MACD on 1m/5m charts. 
+
+I am a 26 year old girl, no background in finance - self taught. And I’m scared!!! I get in and out of the trades in probably less than 2 minutes. 
+
+I’m seeing a lot of strategy discussions saying to stay away from only using MACD. 
+
+What are the strategies that are great to use with MACD? Should I stay away from leverage (x3)?  I’ve kept a trading diary by scribbling down my trades - is there a good platform you recommend using? Also, what are the best video resources you found?
+
+(Be nice. I’m just trying to retire and generate enough income (I don’t need much) for my dad who is a hardworking tradie working 12 hour days with a brain injury and who’s had 6 brain operations in recent years. I just want to consistently make enough to tell him to stop. Hehe.)
+
+Thanks guys :) x",1,2,https://www.reddit.com/r/Daytrading/comments/1iuvdc9/beginner_trading_making_2400_my_first_month/
+1740153516.0,1iuu7q8,"Do you think, Trading for a living possible?","Share your thoughts base on your experience. And if possible Why it is possible? And if not, Why it is not?
+
+I watched many video or read books. Few trader say, It is possible. Few trader say, it's not. You need any side income, job.
+
+What do you Think?",13,91,https://www.reddit.com/r/Daytrading/comments/1iuu7q8/do_you_think_trading_for_a_living_possible/
+1740153051.0,1iuu16m,The Harsh Truth About Trading: Why Most Fail and Few Succeed,"I want to add my two cents about the high number of failed traders.
+
+Let's say that your local hospital is short-staffed, and they decide to introduce a new offer to the public: you can come to the hospital and act as a doctor. Here’s how it would work: for every medical procedure that is administered properly, you would receive a great reward. The catch is, if you fail, you get sued and need to pay a fine.
+
+You start watching YouTube videos on how to insert an IV, what medication to give patients, how to recognize certain diseases, and even how to perform surgeries. You firmly believe that you will be rich since there is no shortage of jobs, and there are thousands of opportunities available to you.
+
+After countless hours of watching YouTube and reading books, a couple of weeks pass, and you decide to walk into the hospital. You have to deal with your first patient, and you remember everything you saw in the videos. You decide to start with the easy task of drawing some blood. It turns out you didn't know the correct procedure and had to try multiple times before hitting the vein. You start with a $1,000 fine, but you think everything will be fine since you will still get paid a bit for the bloodwork you managed to do, which will reduce the amount of the fine.
+
+Then you receive a call from the lab saying that you used the wrong tube and they won't be able to use the sample you collected. You won’t get paid at all.
+
+Your second patient comes in with a fever and a sore throat. You prescribe them Tylenol and tell them to rest. You get paid a few hundred dollars, and your confidence is through the roof! First completed job – now you really think this is for you, and that money will come easily.
+
+Your confidence is built up so much that you tell yourself you’re ready for open-heart surgery. It starts off fine since you watched thousands of videos on the subject, but the lack of practice hits you hard. You cut too deep, and the patient passes away. You’re fined $100,000. Now you’ve lost all your life savings and learned the hard lesson that you need to practice more.
+
+You repeat the process countless times, eventually concluding that this is a scam, that no one can work in the medical field, and that you were robbed of your hard-earned money.
+
+You blame everyone but yourself for your lack of knowledge and practice. You think that if you were not capable of doing it, no one can. Little did you know, 99.99% of the other people who tried to follow the same route as you also failed. Now you believe even more that it was a scam.
+
+Becoming a nurse, doctor, surgeon, etc., takes YEARS of study. They do internships, practice with the best, and won’t make it to the end of their studies if they are not good enough. They have put in countless hours, and they need to have a passion for healthcare and helping people. They need years and years of actual practice before becoming really good at what they do. It’s not something that is suited for everyone. It is not something that is easily attainable.
+
+I don’t have the actual numbers, but if we were to look at the number of people who failed in the medical field after earning a degree, it would be significantly less than 99%. They had a system in place, they learned everything before day one, and they paid thousands of dollars to go to university to get the right information. They did not learn from a nobody on YouTube. They had mentors and did simulations before touching a real patient.
+
+Are you getting where I’m going with this? You probably entered the complex field of investments without preparation. You thought that weeks, months, or even a couple of years would be sufficient for you to be good. This is not realistic at all. It’s okay to use what is available to you to learn, but don’t expect it to make you good in a matter of days.
+
+Trading is not just about trendlines and volume. To be a good trader, you need much more. You need discipline, you need to open your mind to learn for the rest of your life, you need a system, you need risk management, you need knowledge about economics, etc.
+
+If you come into this crazy world without any education, you will spiral endlessly and gain too much confidence when you have a lucky gain. You need to pay attention to what works, why it worked, and what doesn’t. If you’re really motivated, it is possible – just like it’s possible to become a surgeon – but no, it’s not for everybody.
+
+It needs to be something you enjoy and are genuinely interested in, not just an easy way to make money.",13,23,https://www.reddit.com/r/Daytrading/comments/1iuu16m/the_harsh_truth_about_trading_why_most_fail_and/
+1740152596.0,1iutuxv,What went wrong here? New trader practicing on paper trade break and retest strategy,I trade the 5 min opening range break and retest strategy and need some help/advice thank you. Was it my stop loss in a bad place? Price action looked good to enter the trade can someone help me with what went wrong ? ,7,27,https://i.redd.it/2uhaj173jike1.jpeg
+1740152382.0,1iutrym,UPC big buy incoming,Heading to 1$ land ,1,0,https://i.redd.it/33jvjicgiike1.jpeg
+1740151452.0,1iutey8,Quality volume,Just wondering if anyone knows what the ideal amount of pre market volume would be when trading stocks. For reference I’m trading the opening range breakout strategy.(ORB),1,0,https://www.reddit.com/r/Daytrading/comments/1iutey8/quality_volume/
+1740150930.0,1iut7o6,Does anyone know why Margins on Ninjatrader have gone up today?,"Does anyone know of some news event/jobs report coming out today? Margins on the MES, went from $50 to $200. ",2,5,https://www.reddit.com/r/Daytrading/comments/1iut7o6/does_anyone_know_why_margins_on_ninjatrader_have/
+1740149514.0,1iuso8x,Am i just gambling?,I don’t really follow any strategy or anything as i think it’s impossible to predicts where the narket is going to go. I merely just look for a pattern and take trades. For this one I saw lots of greed then many red so surely next is going to be green. Is this viable or am i just getting lucky. ,443,268,https://i.redd.it/algplc7x9ike1.jpeg
+1740147807.0,1ius1st,Good luck today everyone!,Not saying to trade this just thought it was funny lol. Have a great day! :),16,2,https://i.redd.it/lc8bk9ju4ike1.jpeg
+1740147669.0,1iurzz5,Pre-market/Post market Screener recommendation?,"Looking for something very specific:
+
+Any screener that can scan for:  
+A) Volume\*Price (volume at price)  
+B) Relative Volume  
+  
+ DURING Pre-Market and Post-Market hours",3,0,https://www.reddit.com/r/Daytrading/comments/1iurzz5/premarketpost_market_screener_recommendation/
