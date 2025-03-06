@@ -9,3 +9,6 @@ datetime
 praw
 argparse
 dotenv
+psycopg2
+re
+vaderSentiment

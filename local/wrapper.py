@@ -8,11 +8,11 @@ from dotenv import load_dotenv
 
 # Database connection details
 load_dotenv()
-DB_NAME = 'stock_sentiment'
+DB_NAME = os.getenv('DB_NAME')
 DB_USER = os.getenv('DB_USER')
 DB_PASSWORD = os.getenv('DB_PASSWORD')
-DB_HOST = '172.19.32.1'
-DB_PORT = '5432'
+DB_HOST = os.getenv('DB_HOST')
+DB_PORT = os.getenv('DB_PORT')
 
 # List of tickers and subreddits
 TICKERS = ['AAPL', 'GOOG', 'GOOGL', 'AMZN', 'TSLA', 'MSFT']
@@ -38,6 +38,7 @@ def connect_db():
 def store_in_db(conn, posts):
     try:
         cursor = conn.cursor()
+        cursor.execute("SET search_path TO public;")
         insert_query = sql.SQL("""
             INSERT INTO reddit_posts (post_id, ticker, subreddit, title, content, score, created_at)
             VALUES (%s, %s, %s, %s, %s, %s, %s)

@@ -7,11 +7,11 @@ from dotenv import load_dotenv
 
 # Load environment variables
 load_dotenv()
-DB_NAME = 'stock_sentiment'
+DB_NAME = os.getenv('DB_NAME')
 DB_USER = os.getenv('DB_USER')
 DB_PASSWORD = os.getenv('DB_PASSWORD')
-DB_HOST = '172.19.32.1'
-DB_PORT = '5432'
+DB_HOST = os.getenv('DB_HOST')
+DB_PORT = os.getenv('DB_PORT')
 
 TICKERS = ['AAPL', 'GOOG', 'GOOGL', 'AMZN', 'TSLA', 'MSFT']
 SUBREDDITS = ['stocks', 'wallstreetbets', 'investing', 'daytrading', 'stockmarket']

@@ -1,3 +1,5 @@
+sentiment_backup.dump
+
 # Byte-compiled / optimized / DLL files
 __pycache__/
 *.py[cod]
@@ -5,6 +7,17 @@ __pycache__/
 
 # Datasets
 datasets/
+scraped_data/
+nltk_data/
+
+# Unnecessary
+backend/python/
+backend/nltk_layer/
+backend/env/
+backend/dependencies_layer.zip
+
+display/sentiment-backend/node_modules/
+display/sentiment-frontend/node_modules/
 
 # C extensions
 *.so
