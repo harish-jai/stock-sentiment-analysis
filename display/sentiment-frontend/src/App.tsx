@@ -1,9 +1,8 @@
-require('dotenv').config({ path: "/home/harishj/stock-sentiment-analysis/stock-sentiment-analysis/.env" });
 import { useEffect, useState } from "react";
 import axios from "axios";
 import { LineChart, Line, XAxis, YAxis, Tooltip, CartesianGrid } from "recharts";
 
-const API_BASE = process.env.REACT_APP_API_BASE || "http://localhost:5000";
+const API_BASE = import.meta.env.REACT_APP_API_BASE || "http://localhost:5000";
 
 
 interface Ticker {
