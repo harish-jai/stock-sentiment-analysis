@@ -3,7 +3,7 @@ import axios from "axios";
 import { LineChart, Line, XAxis, YAxis, Tooltip, CartesianGrid } from "recharts";
 
 const API_BASE = import.meta.env.REACT_APP_API_BASE || "http://localhost:5000";
-
+console.log(API_BASE);
 
 interface Ticker {
   ticker: string;
@@ -29,6 +29,7 @@ function App() {
       axios.get<SentimentData[]>(`${API_BASE}/sentiment/${selectedTicker}`)
         .then((res) => setSentimentData(res.data));
     }
+    console.log(selectedTicker);
   }, [selectedTicker]);
 
   return (
