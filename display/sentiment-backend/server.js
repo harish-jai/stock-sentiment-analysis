@@ -24,6 +24,17 @@ app.get('/tickers', async (req, res) => {
     }
 });
 
+// Fetch available subreddits
+app.get('/subreddits', async (req, res) => {
+    try {
+        const result = await pool.query('SELECT DISTINCT subreddit FROM ticker_sentiment');
+        res.json(result.rows);
+        console.log(result.rows);
+    } catch (err) {
+        res.status(500).json({ error: err.message });
+    }
+});
+
 // Fetch sentiment data for a specific ticker
 app.get('/sentiment/:ticker', async (req, res) => {
     try {
@@ -31,6 +42,22 @@ app.get('/sentiment/:ticker', async (req, res) => {
         const result = await pool.query(
             'SELECT * FROM ticker_sentiment WHERE ticker = $1 ORDER BY calculated_at DESC',
             [ticker]
+        );
+        res.json(result.rows);
+        console.log(result.rows);
+    } catch (err) {
+        res.status(500).json({ error: err.message });
+    }
+});
+
+// Fetch data based on ticker and subreddit
+app.get('/sentiment/:ticker/:subreddit', async (req, res) => {
+    try {
+        const { ticker, subreddit } = req.params;
+        const search_key = `${ticker}_${subreddit}`;
+        const result = await pool.query(
+            'SELECT * FROM ticker_sentiment WHERE id=$1 ORDER BY calculated_at DESC',
+            [search_key]
         );
         res.json(result.rows);
         console.log(result.rows);

@@ -9,32 +9,62 @@ interface Ticker {
   ticker: string;
 }
 
-interface SentimentData {
+interface Subreddit {
   subreddit: string;
+}
+
+interface SentimentData {
   sentiment: number;
   calculated_at: string;
 }
 
+type SentimentMap = Record<string, Record<string, number>>; // { subreddit: { timestamp: sentiment } }
+
 function App() {
   const [tickers, setTickers] = useState<Ticker[]>([]);
+  const [subreddits, setSubreddits] = useState<Subreddit[]>([]);
   const [selectedTicker, setSelectedTicker] = useState<string | null>(null);
-  const [sentimentData, setSentimentData] = useState<SentimentData[]>([]);
+  const [sentimentMap, setSentimentMap] = useState<SentimentMap>({});
 
   useEffect(() => {
     axios.get<Ticker[]>(`${API_BASE}/tickers`).then((res) => setTickers(res.data));
   }, []);
 
   useEffect(() => {
-    if (selectedTicker) {
-      axios.get<SentimentData[]>(`${API_BASE}/sentiment/${selectedTicker}`)
-        .then((res) => setSentimentData(res.data));
-    }
-    console.log(selectedTicker);
-  }, [selectedTicker]);
+    axios.get<Subreddit[]>(`${API_BASE}/subreddits`).then((res) => setSubreddits(res.data));
+  }, []);
+
+  useEffect(() => {
+    if (!selectedTicker || subreddits.length === 0) return;
+
+    const fetchSentimentData = async () => {
+      const sentimentDataMap: SentimentMap = {};
+
+      await Promise.all(
+        subreddits.map(async (sub) => {
+          try {
+            const res = await axios.get<SentimentData[]>(`${API_BASE}/sentiment/${selectedTicker}/${sub.subreddit}`);
+            sentimentDataMap[sub.subreddit] = res.data.reduce((acc, entry) => {
+              acc[entry.calculated_at] = entry.sentiment;
+              return acc;
+            }, {} as Record<string, number>);
+          } catch (error) {
+            console.error(`Error fetching sentiment for ${sub.subreddit}:`, error);
+          }
+        })
+      );
+
+      setSentimentMap(sentimentDataMap);
+    };
+
+    fetchSentimentData();
+  }, [selectedTicker, subreddits]);
 
   return (
     <div className="min-h-screen bg-gray-900 text-white p-6">
       <h1 className="text-2xl font-bold mb-4">📊 Sentiment Dashboard</h1>
+
+      {/* Dropdown to select ticker */}
       <select
         className="p-2 rounded bg-gray-700"
         onChange={(e) => setSelectedTicker(e.target.value)}
@@ -47,37 +77,28 @@ function App() {
         ))}
       </select>
 
-      {sentimentData.length > 0 && (
-        <div className="mt-6 grid grid-cols-2 gap-6">
-          {/* Left Panel: Aggregate Sentiment */}
-          <div className="bg-gray-800 p-4 rounded-lg">
-            <h2 className="text-lg font-semibold">📈 Aggregate Sentiment</h2>
-            <p className="text-4xl font-bold">
-              {sentimentData[0].sentiment.toFixed(2)}
-            </p>
-            <p>Last updated: {new Date(sentimentData[0].calculated_at).toLocaleString()}</p>
+      {/* Display sentiment time series per subreddit */}
+      <div className="mt-6 grid grid-cols-2 gap-6">
+        {Object.entries(sentimentMap).map(([subreddit, data]) => {
+          const chartData = Object.entries(data).map(([timestamp, sentiment]) => ({
+            calculated_at: new Date(timestamp).toLocaleString(),
+            sentiment,
+          }));
 
-            <LineChart width={400} height={200} data={[...sentimentData].reverse()}>
-              <CartesianGrid stroke="#ccc" />
-              <XAxis dataKey="calculated_at" tick={{ fontSize: 10 }} />
-              <YAxis />
-              <Tooltip />
-              <Line type="monotone" dataKey="sentiment" stroke="#82ca9d" />
-            </LineChart>
-          </div>
-
-          {/* Right Panel: Sentiment Per Subreddit */}
-          <div className="bg-gray-800 p-4 rounded-lg">
-            <h2 className="text-lg font-semibold">💬 Sentiment Per Subreddit</h2>
-            {sentimentData.map((s) => (
-              <div key={s.subreddit} className="mt-2 p-2 bg-gray-700 rounded">
-                <p className="font-semibold">{s.subreddit}</p>
-                <p>Sentiment: {s.sentiment.toFixed(2)}</p>
-              </div>
-            ))}
-          </div>
-        </div>
-      )}
+          return (
+            <div key={subreddit} className="bg-gray-800 p-4 rounded-lg">
+              <h2 className="text-lg font-semibold">📈 {subreddit} Sentiment</h2>
+              <LineChart width={400} height={200} data={chartData}>
+                <CartesianGrid stroke="#ccc" />
+                <XAxis dataKey="calculated_at" tick={{ fontSize: 10 }} />
+                <YAxis />
+                <Tooltip />
+                <Line type="monotone" dataKey="sentiment" stroke="#82ca9d" />
+              </LineChart>
+            </div>
+          );
+        })}
+      </div>
     </div>
   );
 }
