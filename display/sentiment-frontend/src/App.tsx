@@ -16,6 +16,7 @@ interface Subreddit {
 interface SentimentData {
   sentiment: number;
   calculated_at: string;
+  date_str: string;
 }
 
 type SentimentMap = Record<string, Record<string, number>>; // { subreddit: { timestamp: sentiment } }
@@ -44,10 +45,12 @@ function App() {
         subreddits.map(async (sub) => {
           try {
             const res = await axios.get<SentimentData[]>(`${API_BASE}/sentiment/${selectedTicker}/${sub.subreddit}`);
-            sentimentDataMap[sub.subreddit] = res.data.reduce((acc, entry) => {
-              acc[entry.calculated_at] = entry.sentiment;
-              return acc;
-            }, {} as Record<string, number>);
+            sentimentDataMap[sub.subreddit] = res.data
+              .filter(entry => entry.date_str !== null) // Filter out entries with null date
+              .reduce((acc, entry) => {
+                acc[entry.date_str] = entry.sentiment;
+                return acc;
+              }, {} as Record<string, number>);
           } catch (error) {
             console.error(`Error fetching sentiment for ${sub.subreddit}:`, error);
           }
@@ -55,6 +58,7 @@ function App() {
       );
 
       setSentimentMap(sentimentDataMap);
+      console.log(sentimentDataMap);
     };
 
     fetchSentimentData();

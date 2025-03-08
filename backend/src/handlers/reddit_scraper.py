@@ -1,6 +1,7 @@
 import praw
 import json
 import os
+from datetime import datetime
 
 # Load Reddit API credentials from Lambda environment variables
 client_id = os.environ['REDDIT_CLIENT_ID']

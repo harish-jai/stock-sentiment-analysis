@@ -39,54 +39,89 @@ def analyze_sentiment(conn, tickers, subreddits):
     results = []
 
     for ticker in tickers:
-        total_sentiment = 0
-        total_posts_all = 0
-        
+        total_sentiment_by_date = {}
+        total_posts_by_date = {}
+
         for subreddit in subreddits:
             cursor.execute(sql.SQL("""
-                SELECT id, processed_content, score FROM reddit_posts
+                SELECT id, processed_content, score, created_date FROM reddit_posts
                 WHERE ticker = %s AND subreddit = %s AND processed_content IS NOT NULL
             """), (ticker, subreddit))
             posts = cursor.fetchall()
             print(f"Found {len(posts)} posts for {ticker} in r/{subreddit}")
-            subreddit_sentiment = 0
-            total_posts = 0
 
-            for id, content, score in posts:
+            subreddit_sentiment_by_date = {}
+            subreddit_posts_by_date = {}
+
+            for post_id, content, score, created_date in posts:
                 sentiment = calculate_sentiment(content)
+                created_date_str = created_date.strftime('%Y-%m-%d') if created_date else None
                 cursor.execute(sql.SQL("""
                     UPDATE reddit_posts
                     SET sentiment = %s
                     WHERE id = %s
-                """), (sentiment, id))
-                print(f"Updated sentiment for post {id} to {sentiment}")
+                """), (sentiment, post_id))
+
                 weighted_sentiment = sentiment * score
-                subreddit_sentiment += weighted_sentiment
-                total_posts += 1
+
+                if created_date_str not in subreddit_sentiment_by_date:
+                    subreddit_sentiment_by_date[created_date_str] = 0
+                    subreddit_posts_by_date[created_date_str] = 0
+
+                subreddit_sentiment_by_date[created_date_str] += weighted_sentiment
+                subreddit_posts_by_date[created_date_str] += 1
+
+                if created_date_str not in total_sentiment_by_date:
+                    total_sentiment_by_date[created_date_str] = 0
+                    total_posts_by_date[created_date_str] = 0
+
+                total_sentiment_by_date[created_date_str] += weighted_sentiment
+                total_posts_by_date[created_date_str] += 1
             
-            if total_posts > 0:  # Calculate subreddit average sentiment
-                avg_subreddit_sentiment = subreddit_sentiment / total_posts
-                cursor.execute(sql.SQL("""
-                    INSERT INTO ticker_sentiment (id, ticker, subreddit, sentiment, sample_size, calculated_at) 
-                    VALUES (%s, %s, %s, %s, %s, %s)
-                """), (f"{ticker}_{subreddit}", ticker, subreddit, avg_subreddit_sentiment, total_posts, datetime.now()))
+            print(f"Calculated sentiment for {len(posts)} posts in r/{subreddit}")
+
+            # per subreddit sentiment scores
+            for created_date_str, total_sentiment in subreddit_sentiment_by_date.items():
+                total_posts = subreddit_posts_by_date[created_date_str]
+                avg_sentiment = total_sentiment / total_posts if total_posts > 0 else 0
+
+                print(f"Calculated sentiment for {total_posts} posts on {created_date_str} in r/{subreddit}")
                 
-            total_sentiment += subreddit_sentiment
-            total_posts_all += total_posts
+                cursor.execute(sql.SQL("""
+                    INSERT INTO ticker_sentiment (id, ticker, subreddit, sentiment, sample_size, calculated_at, date, date_str) 
+                    VALUES (%s, %s, %s, %s, %s, %s, %s, %s)
+                    ON CONFLICT (id, date_str) DO UPDATE SET
+                    sentiment = EXCLUDED.sentiment,
+                    sample_size = EXCLUDED.sample_size,
+                    calculated_at = EXCLUDED.calculated_at
+                    RETURNING (xmax = 0) AS inserted
+                """), (f"{ticker}_{subreddit}", ticker, subreddit, avg_sentiment, total_posts, datetime.now(), created_date, created_date_str))
+                
+                result = cursor.fetchone()
+                if result and not result[0]:
+                    print(f"Conflict triggered for {ticker} on {created_date_str} in r/{subreddit}")
+                else:
+                    print(f"Inserted new record for {ticker} on {created_date_str} in r/{subreddit}")
         
-        if total_posts_all > 0:  # Calculate total average sentiment
-            avg_total_sentiment = total_sentiment / total_posts_all
+        # aggregated sentiment across all subreddits
+        for created_date_str, total_sentiment in total_sentiment_by_date.items():
+            total_posts = total_posts_by_date[created_date_str]
+            avg_total_sentiment = total_sentiment / total_posts if total_posts > 0 else 0
+
             cursor.execute(sql.SQL("""
-                INSERT INTO ticker_sentiment (id, ticker, subreddit, sentiment, sample_size, calculated_at) 
-                VALUES (%s, %s, %s, %s, %s, %s)
-            """), (f"{ticker}_all", ticker, "all", avg_total_sentiment, total_posts_all, datetime.now()))
-        
+                INSERT INTO ticker_sentiment (id, ticker, subreddit, sentiment, sample_size, calculated_at, date, date_str) 
+                VALUES (%s, %s, %s, %s, %s, %s, %s, %s)
+                ON CONFLICT (id, date_str) DO UPDATE SET
+                sentiment = EXCLUDED.sentiment,
+                sample_size = EXCLUDED.sample_size,
+                calculated_at = EXCLUDED.calculated_at
+            """), (f"{ticker}_all", ticker, "all", avg_total_sentiment, total_posts, datetime.now(), created_date, created_date_str))
+
         results.append({
             'ticker': ticker,
-            'total_sentiment': avg_total_sentiment,
-            'total_posts': total_posts_all
+            'total_sentiment_by_date': total_sentiment_by_date
         })
-    
+
     cursor.close()
     print("Sentiment analysis completed, generated results for", len(results), "tickers")
     return results
@@ -108,7 +143,7 @@ def lambda_handler(event, context):
             conn.close()
             return {
                 'statusCode': 200,
-                'body': json.dumps({'results': results})
+                'body': json.dumps({'results': results}, default=str)
             }
         else:
             return {
@@ -121,4 +156,3 @@ def lambda_handler(event, context):
             'statusCode': 500,
             'body': json.dumps({'error': str(e)})
         }
-

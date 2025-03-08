@@ -38,9 +38,17 @@ def store_in_db(conn, posts):
         cursor = conn.cursor()
         cursor.execute("SET search_path TO public;")
         insert_query = sql.SQL(""" 
-            INSERT INTO reddit_posts (post_id, ticker, subreddit, title, content, processed_content, score, created_at)
-            VALUES (%s, %s, %s, %s, %s, %s, %s, %s)
-            ON CONFLICT (post_id) DO NOTHING;
+            INSERT INTO reddit_posts (post_id, ticker, subreddit, title, content, processed_content, score, created_at, created_date)
+            VALUES (%s, %s, %s, %s, %s, %s, %s, %s, %s)
+            ON CONFLICT (post_id) DO UPDATE SET
+            ticker = EXCLUDED.ticker,
+            subreddit = EXCLUDED.subreddit,
+            title = EXCLUDED.title,
+            content = EXCLUDED.content,
+            processed_content = EXCLUDED.processed_content,
+            score = EXCLUDED.score,
+            created_at = EXCLUDED.created_at,
+            created_date = EXCLUDED.created_date;
         """)
         
         for post in posts:
@@ -52,7 +60,8 @@ def store_in_db(conn, posts):
                 post['content'],
                 post['processed_content'],
                 post['score'],
-                datetime.fromtimestamp(post['created_utc'])
+                datetime.fromtimestamp(post['created_utc']),
+                datetime.fromtimestamp(post['created_utc']).date()
             ))
         
         cursor.close()
