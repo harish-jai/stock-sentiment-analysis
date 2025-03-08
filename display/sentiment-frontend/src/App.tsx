@@ -1,6 +1,7 @@
 import { useEffect, useState } from "react";
 import axios from "axios";
 import { LineChart, Line, XAxis, YAxis, Tooltip, CartesianGrid } from "recharts";
+import "./App.css";
 
 const API_BASE = import.meta.env.VITE_API_BASE || "http://localhost:5000";
 console.log(API_BASE);
@@ -32,7 +33,9 @@ function App() {
   }, []);
 
   useEffect(() => {
-    axios.get<Subreddit[]>(`${API_BASE}/subreddits`).then((res) => setSubreddits(res.data));
+    axios.get<Subreddit[]>(`${API_BASE}/subreddits`).then((res) => {
+      setSubreddits(res.data);
+    });
   }, []);
 
   useEffect(() => {
@@ -65,39 +68,60 @@ function App() {
   }, [selectedTicker, subreddits]);
 
   return (
-    <div className="min-h-screen bg-gray-900 text-white p-6">
-      <h1 className="text-2xl font-bold mb-4">📊 Sentiment Dashboard</h1>
+    <div className="dashboard-container">
+      <h1 className="dashboard-title">Moodi: Stock Sentiment Dashboard</h1>
 
-      {/* Dropdown to select ticker */}
-      <select
-        className="p-2 rounded bg-gray-700"
-        onChange={(e) => setSelectedTicker(e.target.value)}
-      >
-        <option value="">Select a ticker</option>
+      {/* Radio buttons to select ticker */}
+      <div className="ticker-selection">
         {tickers.map((t) => (
-          <option key={t.ticker} value={t.ticker}>
-            {t.ticker}
-          </option>
+          <label key={t.ticker} className="ticker-label">
+            <input
+              type="radio"
+              name="ticker"
+              value={t.ticker}
+              onChange={() => setSelectedTicker(t.ticker)}
+              className="ticker-radio"
+            />
+            <span>{t.ticker}</span>
+          </label>
         ))}
-      </select>
+      </div>
 
-      {/* Display sentiment time series per subreddit */}
-      <div className="mt-6 grid grid-cols-2 gap-6">
+      {/* Display sentiment data for subreddit "all" */}
+      {sentimentMap["all"] && Object.keys(sentimentMap["all"]).length > 0 && (
+        <div className="sentiment-card">
+          <h2 className="sentiment-title">📈 All Subreddits Sentiment</h2>
+          <LineChart width={800} height={400} data={Object.entries(sentimentMap["all"]).map(([timestamp, sentiment]) => ({
+            calculated_at: new Date(timestamp).toLocaleString(),
+            sentiment,
+          }))}>
+            <CartesianGrid stroke="#ccc" />
+            <XAxis dataKey="calculated_at" tick={{ fontSize: 10 }} />
+            <YAxis />
+            <Tooltip formatter={(value, name, props) => [`Sentiment: ${value}`, `Date: ${props.payload.calculated_at}`]} />
+            <Line type="monotone" dataKey="sentiment" stroke="#82ca9d" dot={false} />
+          </LineChart>
+        </div>
+      )}
+
+      {/* Display sentiment time series per subreddit except for "all" */}
+      <div className="sentiment-grid">
         {Object.entries(sentimentMap).map(([subreddit, data]) => {
+          if (subreddit === "all") return null;
           const chartData = Object.entries(data).map(([timestamp, sentiment]) => ({
             calculated_at: new Date(timestamp).toLocaleString(),
             sentiment,
           }));
 
           return (
-            <div key={subreddit} className="bg-gray-800 p-4 rounded-lg">
-              <h2 className="text-lg font-semibold">📈 {subreddit} Sentiment</h2>
+            <div key={subreddit} className="sentiment-card">
+              <h2 className="sentiment-title">📈 {subreddit} Sentiment</h2>
               <LineChart width={400} height={200} data={chartData}>
                 <CartesianGrid stroke="#ccc" />
                 <XAxis dataKey="calculated_at" tick={{ fontSize: 10 }} />
                 <YAxis />
-                <Tooltip />
-                <Line type="monotone" dataKey="sentiment" stroke="#82ca9d" />
+                <Tooltip formatter={(value, name, props) => [`Sentiment: ${value}`, `Date: ${props.payload.calculated_at}`]} />
+                <Line type="monotone" dataKey="sentiment" stroke="#82ca9d" dot={false}/>
               </LineChart>
             </div>
           );
