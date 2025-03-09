@@ -98,7 +98,7 @@ function App() {
             <CartesianGrid stroke="#ccc" />
             <XAxis dataKey="calculated_at" tick={{ fontSize: 10 }} />
             <YAxis />
-            <Tooltip formatter={(value, name, props) => [`Sentiment: ${value}`, `Date: ${props.payload.calculated_at}`]} />
+            <Tooltip formatter={(value, _, props) => [`Sentiment: ${value}`, `Date: ${props.payload.calculated_at}`]} />
             <Line type="monotone" dataKey="sentiment" stroke="#82ca9d" dot={false} />
           </LineChart>
         </div>
@@ -120,7 +120,7 @@ function App() {
                 <CartesianGrid stroke="#ccc" />
                 <XAxis dataKey="calculated_at" tick={{ fontSize: 10 }} />
                 <YAxis />
-                <Tooltip formatter={(value, name, props) => [`Sentiment: ${value}`, `Date: ${props.payload.calculated_at}`]} />
+                <Tooltip formatter={(value, _, props) => [`Sentiment: ${value}`, `Date: ${props.payload.calculated_at}`]} />
                 <Line type="monotone" dataKey="sentiment" stroke="#82ca9d" dot={false}/>
               </LineChart>
             </div>
